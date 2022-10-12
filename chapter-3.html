@@ -1,0 +1,1055 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+    <title>Settling behaviour &#8212; Principles of the Full Scale Aerobic Granular Sludge Process</title>
+    
+  <!-- Loaded before other Sphinx assets -->
+  <link href="_static/styles/theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
+<link href="_static/styles/pydata-sphinx-theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
+
+    
+  <link rel="stylesheet"
+    href="_static/vendor/fontawesome/5.13.0/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
+    <link rel="stylesheet" href="_static/styles/sphinx-book-theme.css?digest=5115cc725059bd94278eecd172e13a965bf8f5a9" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="_static/mystnb.css" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="_static/design-style.b7bb847fb20b106c3d81b95245e65545.min.css" />
+    
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="_static/scripts/pydata-sphinx-theme.js?digest=1999514e3f237ded88cf">
+
+    <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    <script src="_static/clipboard.min.js"></script>
+    <script src="_static/copybutton.js"></script>
+    <script src="_static/scripts/sphinx-book-theme.js?digest=9c920249402e914e316237a7dbc6769907cce411"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="_static/togglebutton.js"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <script src="_static/design-tabs.js"></script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"
+const thebe_selector = ".thebe,.cell"
+const thebe_selector_input = "pre"
+const thebe_selector_output = ".output, .cell_output"
+</script>
+    <script async="async" src="_static/sphinx-thebe.js"></script>
+    <script>window.MathJax = {"options": {"processHtmlClass": "tex2jax_process|mathjax_process|math|output_area"}}</script>
+    <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Nitrous oxide emission" href="chapter-4.html" />
+    <link rel="prev" title="Effluent suspended solids" href="chapter-2.html" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="docsearch:language" content="None">
+    
+
+    <!-- Google Analytics -->
+    
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="60">
+<!-- Checkboxes to toggle the left sidebar -->
+<input type="checkbox" class="sidebar-toggle" name="__navigation" id="__navigation" aria-label="Toggle navigation sidebar">
+<label class="overlay overlay-navbar" for="__navigation">
+    <div class="visually-hidden">Toggle navigation sidebar</div>
+</label>
+<!-- Checkboxes to toggle the in-page toc -->
+<input type="checkbox" class="sidebar-toggle" name="__page-toc" id="__page-toc" aria-label="Toggle in-page Table of Contents">
+<label class="overlay overlay-pagetoc" for="__page-toc">
+    <div class="visually-hidden">Toggle in-page Table of Contents</div>
+</label>
+<!-- Headers at the top -->
+<div class="announcement header-item noprint"></div>
+<div class="header header-item noprint"></div>
+
+    
+    <div class="container-fluid" id="banner"></div>
+
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+<!-- Sidebar -->
+<div class="bd-sidebar noprint" id="site-navigation">
+    <div class="bd-sidebar__content">
+        <div class="bd-sidebar__top"><div class="navbar-brand-box">
+    <a class="navbar-brand text-wrap" href="index.html">
+      
+        <!-- `logo` is deprecated in Sphinx 4.0, so remove this when we stop supporting 3 -->
+        
+      
+      
+      <img src="_static/TUDelft_logo_rgb.svg" class="logo" alt="logo">
+      
+      
+      <h1 class="site-logo" id="site-title">Principles of the Full Scale Aerobic Granular Sludge Process</h1>
+      
+    </a>
+</div><form class="bd-search d-flex align-items-center" action="search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this book..." aria-label="Search this book..." autocomplete="off" >
+</form><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item active">
+        
+        <ul class="nav bd-sidenav bd-sidenav__home-link">
+            <li class="toctree-l1">
+                <a class="reference internal" href="titlepage.html">
+                    About
+                </a>
+            </li>
+        </ul>
+        <ul class="current nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="preface.html">
+   An unexpected journey
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="chapter-1.html">
+   Introduction
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="chapter-2.html">
+   Effluent suspended solids
+  </a>
+ </li>
+ <li class="toctree-l1 current active">
+  <a class="current reference internal" href="#">
+   Settling behaviour
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="chapter-4.html">
+   Nitrous oxide emission
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="chapter-5.html">
+   On the mechanisms
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="outlook.html">
+   Outlook
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="epilogue.html">
+   Epilogue
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="acknowledgements.html">
+   Acknowledgements
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="references.html">
+   References
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="glossary.html">
+   Glossary
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="appendix_1.html">
+   Appendix: Full-scale settling experiment
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="appendix.html">
+   Appendix: Segregation of sludge bed
+  </a>
+ </li>
+</ul>
+
+    </div>
+</nav></div>
+        <div class="bd-sidebar__bottom">
+             <!-- To handle the deprecated key -->
+            
+            <div class="navbar_extra_footer">
+            Powered by <a href="https://jupyterbook.org">Jupyter Book</a>
+            </div>
+            
+        </div>
+    </div>
+    <div id="rtd-footer-container"></div>
+</div>
+
+
+          
+
+
+          
+<!-- A tiny helper pixel to detect if we've scrolled -->
+<div class="sbt-scroll-pixel-helper"></div>
+<!-- Main content -->
+<div class="col py-0 content-container">
+    
+    <div class="header-article row sticky-top noprint">
+        
+
+
+
+<div class="col py-1 d-flex header-article-main">
+    <div class="header-article__left">
+        
+        <label for="__navigation"
+  class="headerbtn"
+  data-toggle="tooltip"
+data-placement="right"
+title="Toggle navigation"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-bars"></i>
+  </span>
+
+</label>
+
+        
+    </div>
+    <div class="header-article__right">
+<button onclick="toggleFullScreen()"
+  class="headerbtn"
+  data-toggle="tooltip"
+data-placement="bottom"
+title="Fullscreen mode"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+<div class="menu-dropdown menu-dropdown-repository-buttons">
+  <button class="headerbtn menu-dropdown__trigger"
+      aria-label="Source repositories">
+      <i class="fab fa-github"></i>
+  </button>
+  <div class="menu-dropdown__content">
+    <ul>
+      <li>
+        <a href="https://github.com/edwardvd/edwardvd.github.io"
+   class="headerbtn"
+   data-toggle="tooltip"
+data-placement="left"
+title="Source repository"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fab fa-github"></i>
+  </span>
+<span class="headerbtn__text-container">repository</span>
+</a>
+
+      </li>
+      
+      <li>
+        <a href="https://github.com/edwardvd/edwardvd.github.io/issues/new?title=Issue%20on%20page%20%2Fchapter-3.html&body=Your%20issue%20content%20here."
+   class="headerbtn"
+   data-toggle="tooltip"
+data-placement="left"
+title="Open an issue"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-lightbulb"></i>
+  </span>
+<span class="headerbtn__text-container">open issue</span>
+</a>
+
+      </li>
+      
+    </ul>
+  </div>
+</div>
+
+<div class="menu-dropdown menu-dropdown-download-buttons">
+  <button class="headerbtn menu-dropdown__trigger"
+      aria-label="Download this page">
+      <i class="fas fa-download"></i>
+  </button>
+  <div class="menu-dropdown__content">
+    <ul>
+      <li>
+        <a href="_sources/chapter-3.md"
+   class="headerbtn"
+   data-toggle="tooltip"
+data-placement="left"
+title="Download source file"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="headerbtn__text-container">.md</span>
+</a>
+
+      </li>
+      
+      <li>
+        
+<button onclick="printPdf(this)"
+  class="headerbtn"
+  data-toggle="tooltip"
+data-placement="left"
+title="Print to PDF"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="headerbtn__text-container">.pdf</span>
+</button>
+
+      </li>
+      
+    </ul>
+  </div>
+</div>
+<label for="__page-toc"
+  class="headerbtn headerbtn-page-toc"
+  
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-list"></i>
+  </span>
+
+</label>
+
+    </div>
+</div>
+
+<!-- Table of contents -->
+<div class="col-md-3 bd-toc show noprint">
+    <div class="tocsection onthispage pt-5 pb-3">
+        <i class="fas fa-list"></i> Contents
+    </div>
+    <nav id="bd-toc-nav" aria-label="Page">
+        <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#abstract">
+   Abstract
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#introduction">
+   Introduction
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#methodology">
+   Methodology
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#description-of-the-plants">
+     Description of the plants
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#size-distribution">
+     Size distribution
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#density-measurements">
+     Density measurements
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#voidage-measurements">
+     Voidage measurements
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#measurement-of-terminal-velocities">
+     Measurement of terminal velocities
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#measurement-of-bed-expansion">
+     Measurement of bed expansion
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#full-scale-settling-of-a-mixed-granular-bed">
+     Full-scale settling of a mixed granular bed
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#modelling-of-terminal-velocity">
+     Modelling of terminal velocity
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#modelling-of-bed-behaviour">
+     Modelling of bed behaviour
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#results">
+   Results
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#terminal-velocity">
+     Terminal velocity
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#bed-expansion">
+     Bed expansion
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#full-scale-bed-settling">
+     Full-scale bed settling
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#discussion">
+   Discussion
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#terminal-settling-velocity">
+     Terminal settling velocity
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#bed-expansion-characteristics">
+     Bed expansion characteristics
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#full-scale-validation">
+     Full-scale validation
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#selection-pressure">
+     Selection pressure
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#differences-between-settling-of-flocs-and-granules">
+     Differences between settling of flocs and granules
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#sludge-morphology">
+     Sludge morphology
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#potential-applications-of-the-settling-model">
+     Potential applications of the settling model
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#conclusion">
+   Conclusion
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#references">
+   References
+  </a>
+ </li>
+</ul>
+
+    </nav>
+</div>
+    </div>
+    <div class="article row">
+        <div class="col pl-md-3 pl-lg-5 content-container">
+            <!-- Table of contents that is only displayed when printing the page -->
+            <div id="jb-print-docs-body" class="onlyprint">
+                <h1>Settling behaviour</h1>
+                <!-- Table of contents -->
+                <div id="print-main-content">
+                    <div id="jb-print-toc">
+                        
+                        <div>
+                            <h2> Contents </h2>
+                        </div>
+                        <nav aria-label="Page">
+                            <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#abstract">
+   Abstract
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#introduction">
+   Introduction
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#methodology">
+   Methodology
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#description-of-the-plants">
+     Description of the plants
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#size-distribution">
+     Size distribution
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#density-measurements">
+     Density measurements
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#voidage-measurements">
+     Voidage measurements
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#measurement-of-terminal-velocities">
+     Measurement of terminal velocities
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#measurement-of-bed-expansion">
+     Measurement of bed expansion
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#full-scale-settling-of-a-mixed-granular-bed">
+     Full-scale settling of a mixed granular bed
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#modelling-of-terminal-velocity">
+     Modelling of terminal velocity
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#modelling-of-bed-behaviour">
+     Modelling of bed behaviour
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#results">
+   Results
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#terminal-velocity">
+     Terminal velocity
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#bed-expansion">
+     Bed expansion
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#full-scale-bed-settling">
+     Full-scale bed settling
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#discussion">
+   Discussion
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#terminal-settling-velocity">
+     Terminal settling velocity
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#bed-expansion-characteristics">
+     Bed expansion characteristics
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#full-scale-validation">
+     Full-scale validation
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#selection-pressure">
+     Selection pressure
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#differences-between-settling-of-flocs-and-granules">
+     Differences between settling of flocs and granules
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#sludge-morphology">
+     Sludge morphology
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#potential-applications-of-the-settling-model">
+     Potential applications of the settling model
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#conclusion">
+   Conclusion
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#references">
+   References
+  </a>
+ </li>
+</ul>
+
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            <main id="main-content" role="main">
+                
+              <div>
+                
+  <section class="tex2jax_ignore mathjax_ignore" id="settling-behaviour">
+<span id="ch-settlingbehavior"></span><h1>Settling behaviour<a class="headerlink" href="#settling-behaviour" title="Permalink to this headline">#</a></h1>
+<p><em>Parts of this chapter have been published in Water Research <strong>186</strong>, (2020) <span id="id1">[<a class="reference internal" href="references.html#id151" title="E. J. H. van Dijk, M. Pronk, and M. C. M. van Loosdrecht. A settling model for full-scale aerobic granular sludge. Water Res., 186:116135, 2020. doi:10.1016/j.watres.2020.116135.">van Dijk <em>et al.</em>, 2020</a>]</span>.</em></p>
+<section id="abstract">
+<h2>Abstract<a class="headerlink" href="#abstract" title="Permalink to this headline">#</a></h2>
+<p>The settling behaviour of AGS in full-scale reactors is different from the settling of flocculent activated sludge. Current activated sludge models lack the features to describe the segregation of granules based on size during the settling process. This segregation plays an important role in the granulation process, and therefore, a better understanding of the settling is essential. The goal of this study was to model and evaluate the segregation of different granule sizes during settling and feeding in full-scale aerobic granular sludge reactors. For this, the Patwardhan and Tien model was used. This model is an adaption of the Richardson and Zaki model, allowing for multiple classes of particles. To create the granular settling model, relevant parameters were identified using aerobic granular sludge from different full-scale Nereda<sup>®</sup> reactors. The settling properties of individual granules were measured, as was the bulk behaviour of granular sludge beds with uniform granular sludge particles. The obtained parameters were integrated in a model containing multiple granule classes, which was then validated for granular sludge settling in a full-scale Nereda<sup>®</sup> reactor. In practice a hydraulic selection pressure is used to select for granular sludge. Under the same hydraulic selection pressure, the model predicted that different stable granular size distributions can occur. This indicates that granular size distribution control would need a different mechanism then the hydraulic selection pressure alone. This model can be used to better understand and optimize operational parameters of AGS reactors that depend on granular sludge size, like biological nutrient removal. Furthermore, insights from this model can also be used in the development of continuously fed AGS systems.</p>
+<!-- _Keywords:  aerobic granular sludge, model, settling, full-scale, practice, wastewater, design, Richardson and Zaki_ -->
+</section>
+<section id="introduction">
+<h2>Introduction<a class="headerlink" href="#introduction" title="Permalink to this headline">#</a></h2>
+<figure class="align-default" id="fig-graphical-abstract-ch3">
+<img alt="_images/graphical_abstract_ch3.svg" src="_images/graphical_abstract_ch3.svg" /><figcaption>
+<p><span class="caption-number">Fig. 14 </span><span class="caption-text">Graphical abstract.</span><a class="headerlink" href="#fig-graphical-abstract-ch3" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
+<p>In biological wastewater treatment, the liquid/solid separation through gravity induced settling is an important step in producing clean effluent <span id="id2">[<a class="reference internal" href="references.html#id49" title="M. Henze, M. C. M. van Loosdrecht, G.A. Ekama, and D. Brdjanovic. Biological Wastewater Treatment: Principles, Modelling and Design. IWA Pub., London, 2008. ISBN 1843391880 9781843391883. doi:10.2166/9781780401867.">Henze <em>et al.</em>, 2008</a>]</span>. Therefore, the settling behaviour of conventional activated sludge has been intensively studied over the years. For the design of secondary clarifiers, a good understanding of the settling behaviour of activated sludge is necessary and both design guidelines <span id="id3">[<a class="reference internal" href="references.html#id49" title="M. Henze, M. C. M. van Loosdrecht, G.A. Ekama, and D. Brdjanovic. Biological Wastewater Treatment: Principles, Modelling and Design. IWA Pub., London, 2008. ISBN 1843391880 9781843391883. doi:10.2166/9781780401867.">Henze <em>et al.</em>, 2008</a>]</span>  and dynamic models  <span id="id4">[<a class="reference internal" href="references.html#id61" title="I. Takács, G. G. Patry, and D. Nolasco. A dynamic model of the clarification-thickening process. Water Res., 25(10):1263–1271, oct 1991. doi:10.1016/0043-1354(91)90066-Y.">Takács <em>et al.</em>, 1991</a>, <a class="reference internal" href="references.html#id58" title="P. A. Vesilind. Design of prototype thickeners from batch settling tests. Water Sew. Work., 115(7):302–307, 1968.">Vesilind, 1968</a>]</span> are readily available. These guidelines generally use the sludge volume index or the zone settling velocity as input parameters for describing the settling behaviour of activated sludge. For dynamic modelling of the settling of activated sludge several generally accepted empirical relations are available relating the settling velocity to the solids concentration <span id="id5">[<a class="reference internal" href="references.html#id81" title="E. Torfs, S. Balemans, F. Locatelli, S. Diehl, R. Bürger, J. Laurent, P. François, and I. Nopens. On constitutive functions for hindered settling velocity in 1-D settler models: Selection of appropriate model structure. Water Res., 110:38–47, 2017. doi:10.1016/j.watres.2016.11.067.">Torfs <em>et al.</em>, 2017</a>]</span>. These empirical relations can be used to dynamically describe the settling of sludge in secondary clarifiers, thereby ensuring proper design and operation of the conventional activated sludge plants.</p>
+<p><a class="reference internal" href="glossary.html#term-AGS"><span class="xref std std-term">Aerobic granular sludge</span></a> is a technology enabling removal of nutrients and liquid/solid separation in one tank due to the advantageous settling properties and unique granular structure of the aerobic granules <span id="id6">[<a class="reference internal" href="references.html#id80" title="S. Adav, D. J. Lee, K. Y. Show, and J. H. Tay. Aerobic granular sludge: Recent advances. Biotechnol. Adv., 26(5):411–423, 2008. doi:10.1016/j.biotechadv.2008.05.002.">Adav <em>et al.</em>, 2008</a>, <a class="reference internal" href="references.html#id47" title="D. Gao, L. Liu, H. Liang, and W. M. Wu. Aerobic granular sludge: Characterization, mechanism of granulation and application to wastewater treatment. Crit. Rev. Biotechnol., 31(2):137–152, 2011. doi:10.3109/07388551.2010.497961.">Gao <em>et al.</em>, 2011</a>, <a class="reference internal" href="references.html#id6" title="J. J. Heijnen and M. C. M. van Loosdrecht. Method for acquiring grain-shaped growth of a microorganism in a reactor. 1998.">Heijnen and van Loosdrecht, 1998</a>, <a class="reference internal" href="references.html#id32" title="M. Pronk, M. K. de Kreuk, L. M. M. de Bruin, P. Kamminga, R. Kleerebezem, and M. C. M. van Loosdrecht. Full scale performance of the aerobic granular sludge process for sewage treatment. Water Res., 84:207–217, nov 2015. doi:10.1016/j.watres.2015.07.011.">Pronk <em>et al.</em>, 2015</a>, <a class="reference internal" href="references.html#id46" title="H. F. van der Roest, L. M. M. de Bruin, G. Gademan, and F. Coelho. Towards sustainable waste water treatment with Dutch Nereda® technology. Water Pract. Technol., 6(3):1–2, 2011. doi:10.2166/wpt.2011.059.">van der Roest <em>et al.</em>, 2011</a>]</span>. The settling behaviour of aerobic granular sludge under full-scale conditions has not yet been studied. This is mostly because the full-scale aerobic granular sludge process is a novel technology. So far, the settling of aerobic granular sludge has only been studied with granules obtained from laboratory reactors <span id="id7">[<a class="reference internal" href="references.html#id69" title="Y. Liu, W. W. Wang, Y. Q. Liu, L. Qin, and J. H. Tay. A generalized model for settling velocity of aerobic granular sludge. Biotechnol. Prog., 21(2):621–626, 2005. doi:10.1021/bp049674u.">Liu <em>et al.</em>, 2005</a>, <a class="reference internal" href="references.html#id54" title="B. J. Ni, W. M. Xie, S. G. Liu, H. Q. Yu, Y. Z. Wang, G. Wang, and X. L. Dai. Granulation of activated sludge in a pilot-scale sequencing batch reactor for the treatment of low-strength municipal wastewater. Water Res., 43(3):751–761, feb 2009. doi:10.1016/j.watres.2008.11.009.">Ni <em>et al.</em>, 2009</a>, <a class="reference internal" href="references.html#id75" title="M. K. H. Winkler, J. P. Bassin, R. Kleerebezem, R. G. J. M. van der Lans, and M. C. M. van Loosdrecht. Temperature and salt effects on settling velocity in granular sludge technology. Water Res., 46(12):3897–3902, aug 2012. doi:10.1016/j.watres.2012.04.034.">Winkler <em>et al.</em>, 2012</a>, <a class="reference internal" href="references.html#id57" title="A. Nor Anuar, Z. Ujang, M. C. M. van Loosdrecht, and M. K. de Kreuk. Settling behaviour of aerobic granular sludge. Water Sci. Technol., 56(7):55–63, 2007. doi:10.2166/wst.2007.671.">Nor Anuar <em>et al.</em>, 2007</a>]</span>.
+These reactors are usually operated with synthetic influent leading to a fully granulated system without flocs. In practice there always is a non-granular sludge fraction present of 10 - 20 % <span id="id8">[<a class="reference internal" href="references.html#id32" title="M. Pronk, M. K. de Kreuk, L. M. M. de Bruin, P. Kamminga, R. Kleerebezem, and M. C. M. van Loosdrecht. Full scale performance of the aerobic granular sludge process for sewage treatment. Water Res., 84:207–217, nov 2015. doi:10.1016/j.watres.2015.07.011.">Pronk <em>et al.</em>, 2015</a>, <a class="reference internal" href="references.html#id44" title="E. J. H. van Dijk, M. Pronk, and M. C. M. van Loosdrecht. Controlling effluent suspended solids in the aerobic granular sludge process. Water Res., 147:50–59, dec 2018. doi:10.1016/j.watres.2018.09.052.">van Dijk <em>et al.</em>, 2018</a>]</span> of the total mass which might influence the overall settling behaviour. Also, laboratory experiments mainly focused on the settling behaviour of individual granules, not the settling behaviour of the granular sludge bed as a whole. As such it is not yet possible to model settling of full-scale aerobic granular sludge.</p>
+<p>The settling velocity of granules in a bed is much lower than that of an individual granule. Solid separation theory shows that the influence a settling particle experiences from surrounding particles depends on the degree of particle coherence <span id="id9">[<a class="reference internal" href="references.html#id62" title="R. H. Perry, D. W. Green, and J. O. Maloney. Perry's Chemical Engineers' Handbook. McGraw-Hill, New York, 7th edition, 1997.">Perry <em>et al.</em>, 1997</a>]</span>. Conventional activated sludge flocs will tend to flocculate, which slows down the settling velocity of the sludge <span id="id10">[<a class="reference internal" href="references.html#id58" title="P. A. Vesilind. Design of prototype thickeners from batch settling tests. Water Sew. Work., 115(7):302–307, 1968.">Vesilind, 1968</a>]</span>. Aerobic granular sludge by definition does not coagulate <span id="id11">[<a class="reference internal" href="references.html#id60" title="M. K. de Kreuk, N. Kishida, and M. C. M. van Loosdrecht. Aerobic granular sludge - State of the art. Water Sci. Technol., 55(8-9):75–81, 2007. doi:10.2166/wst.2007.244.">de Kreuk <em>et al.</em>, 2007</a>]</span> and is thought to maintain its discrete settling properties, even in a concentrated sludge bed. For small biofilm-coated particles it was shown that the settling behaviour could be well described using fluidized bed theory <span id="id12">[<a class="reference internal" href="references.html#id76" title="C. Nicolella, M. C. M. van Loosdrecht, R. Di Felice, and M. Rovatti. Terminal settling velocity and bed-expansion characteristics of biofilm coated particles. Biotechnol. Bioeng., 62(1):62–70, jan 1999. doi:10.1002/(SICI)1097-0290(19990105)62:1&lt;62::AID-BIT8&gt;3.0.CO;2-U.">Nicolella <em>et al.</em>, 1999</a>]</span>. Because of the similarities in size, structure and density between biofilm-coated particles and aerobic granular sludge it was theorized that the settling of aerobic granular sludge might also be described by fluidized bed theory.</p>
+<p>Current activated sludge models, for example the widely used Takács model <span id="id13">[<a class="reference internal" href="references.html#id61" title="I. Takács, G. G. Patry, and D. Nolasco. A dynamic model of the clarification-thickening process. Water Res., 25(10):1263–1271, oct 1991. doi:10.1016/0043-1354(91)90066-Y.">Takács <em>et al.</em>, 1991</a>]</span>, lack the features to describe the segregation of granules based on size during the settling process. The process of hydraulic sludge selection is a key element in the operation of granular sludge reactors <span id="id14">[<a class="reference internal" href="references.html#id67" title="L. Qin, J. H. Tay, and Y. Liu. Selection pressure is a driving force of aerobic granulation in sequencing batch reactors. Process Biochem., 39(5):579–584, 2004. doi:10.1016/S0032-9592(03)00125-0.">Qin <em>et al.</em>, 2004</a>]</span>. Larger granules have higher settling velocities than flocs and small granules <span id="id15">[<a class="reference internal" href="references.html#id75" title="M. K. H. Winkler, J. P. Bassin, R. Kleerebezem, R. G. J. M. van der Lans, and M. C. M. van Loosdrecht. Temperature and salt effects on settling velocity in granular sludge technology. Water Res., 46(12):3897–3902, aug 2012. doi:10.1016/j.watres.2012.04.034.">Winkler <em>et al.</em>, 2012</a>]</span> and as such they can be preferentially retained in the reactor under hydraulic selection pressure. In an upwards fed reactor, larger granules are more likely to receive substrate, because they settle faster to the bottom of the reactor and thus receive substrate. This differential settling of different sludge fractions is not covered in current settling models. Another feature not well described by the current models is the stacking of granules at the bottom of the reactor. Sludge flocs in a concentrated bed will slowly compress to higher concentrations, while granules will stack on top of each other, when the maximum packing grade is reached. For a better understanding of these processes a model describing the segregation of granules in the reactor based on settling properties is necessary. A potential model was proposed by <span id="id16">Cui <em>et al.</em> [<a class="reference internal" href="references.html#id68" title="Y. Cui, J. Ravnik, P. Steinmann, and M. Hriberšek. Settling characteristics of nonspherical porous sludge flocs with nonhomogeneous mass distribution. Water Res., 158:159–170, 2019. doi:10.1016/j.watres.2019.04.017.">2019</a>]</span>, but not further developed. Also <span id="id17">Dold <em>et al.</em> [<a class="reference internal" href="references.html#id66" title="P. Dold, B. Alexander, G. Burger, M. Fairlamb, D. Conidi, C. Bye, and W. Du. Modeling full-scale granular sludge sequencing tank performance. 91st Annu. Water Environ. Fed. Tech. Exhib. Conf. WEFTEC 2018, pages 3813–3826, 2019. doi:10.2175/193864718825135937.">2019</a>]</span> proposed a model, but in this model only flocs and one class of granules was used, and all granules were allowed to survive the selection pressure. While this approach might serve the purpose of describing the average conversions in an AGS reactor, no insight can be gained in the granulation process itself. Moreover, it cannot be used to predict the influence of the granular size distribution on the biological conversions. Also for the development of continuously operated granular sludge reactors <span id="id18">[<a class="reference internal" href="references.html#id53" title="T. R. Kent, C. B. Bott, and Z. W. Wang. State of the art of aerobic granulation in continuous flow bioreactors. Biotechnol. Adv., 36(4):1139–1166, jul 2018. doi:10.1016/j.biotechadv.2018.03.015.">Kent <em>et al.</em>, 2018</a>]</span> a good settling model will be essential.</p>
+<p>The goal of this study was to implement a model describing the segregation of different granule sizes during settling and feeding in an aerobic granular sludge reactor. For this, the model proposed by <span id="id19">Patwardhan and Tien [<a class="reference internal" href="references.html#id72" title="V. S. Patwardhan and C. Tien. Sedimentation and liquid fluidization of solid particles of different sizes and densities. Chem. Eng. Sci., 40(7):1051–1060, 1985. doi:10.1016/0009-2509(85)85062-4.">1985</a>]</span> was adopted. This model is an implementation of the Richardson and Zaki model <span id="id20">[<a class="reference internal" href="references.html#id77" title="J. F. Richardson and W. N. Zaki. Sedimentation and fluidisation: Part I. Chem. Eng. Res. Des., 32(1 SUPPL.):S82—-S100, 1954. doi:10.1016/s0263-8762(97)80006-8.">Richardson and Zaki, 1954</a>]</span>, allowing for multiple classes of particles. To create a granular sludge settling model, relevant parameters were identified using aerobic granular sludge from different full-scale Nereda<sup>®</sup> reactors. The settling properties of individual granules were measured as was the bulk behaviour of uniform granular sludge beds. The obtained parameters were introduced in a model containing multiple granule classes, which then was validated based on an experiment in a full-scale Nereda<sup>®</sup> reactor.</p>
+</section>
+<section id="methodology">
+<h2>Methodology<a class="headerlink" href="#methodology" title="Permalink to this headline">#</a></h2>
+<section id="description-of-the-plants">
+<h3>Description of the plants<a class="headerlink" href="#description-of-the-plants" title="Permalink to this headline">#</a></h3>
+<p>In this study aerobic granular sludge from three Nereda<sup>®</sup> plants was used, namely from Garmerwolde, from the full-scale in Utrecht and from the <a class="reference internal" href="glossary.html#term-PNU"><span class="xref std std-term">PNU</span></a>. For a description of these plants see section <a class="reference internal" href="chapter-1.html#sec-nereda-plant-description"><span class="std std-ref">Nereda<sup>®</sup> plants used in this research
+</span></a>. Sludge characteristics (mixed liquor suspended solids (MLSS), volatile suspended solids (VSS),  sludge volume index after 30 minutes (SVI30), the granule fraction in sludge (AGS fraction) and the COD loading rate) of these plants during the experiments are given in <a class="reference internal" href="#table-descriptionplants"><span class="std std-numref">Table 6</span></a>.</p>
+<table class="colwidths-auto table" id="table-descriptionplants">
+<caption><span class="caption-number">Table 6 </span><span class="caption-text">Characteristics of Nereda<sup>®</sup> plants during the experiments.</span><a class="headerlink" href="#table-descriptionplants" title="Permalink to this table">#</a></caption>
+<thead>
+<tr class="row-odd"><th class="head"><p>plant</p></th>
+<th class="head"><p>MLSS</p></th>
+<th class="head"><p>VSS</p></th>
+<th class="head"><p>SVI30</p></th>
+<th class="head"><p>Gran.</p></th>
+<th class="head"><p>COD load</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p></p></td>
+<td><p>(kg m<sup>-3</sup>)</p></td>
+<td><p>(kg m<sup>-3</sup>)</p></td>
+<td><p>(mL g<sup>-1</sup>)</p></td>
+<td><p>(%)</p></td>
+<td><p>(kg<sub>COD</sub> kg<sub>MLSS</sub><sup>-1</sup> d<sup>-1</sup>)</p></td>
+</tr>
+<tr class="row-odd"><td><p>Garmerwolde</p></td>
+<td><p>6.5</p></td>
+<td><p>5.0</p></td>
+<td><p>60</p></td>
+<td><p>64</p></td>
+<td><p>0.10</p></td>
+</tr>
+<tr class="row-even"><td><p>Utrecht</p></td>
+<td><p>6.7</p></td>
+<td><p>5.2</p></td>
+<td><p>42</p></td>
+<td><p>81</p></td>
+<td><p>0.076</p></td>
+</tr>
+<tr class="row-odd"><td><p>PNU</p></td>
+<td><p>8.9</p></td>
+<td><p>7.2</p></td>
+<td><p>39</p></td>
+<td><p>78</p></td>
+<td><p>0.078</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="size-distribution">
+<h3>Size distribution<a class="headerlink" href="#size-distribution" title="Permalink to this headline">#</a></h3>
+<p>The granule size distribution of the sludge in the Nereda<sup>®</sup> reactors used in these experiments varied. Aggregates larger than 200 µm are considered to be granules, although the non-granular fraction smaller than 200 µm at least partly shows the same granular morphology. These small aggregates are the proto-granules (see chapter <a class="reference internal" href="chapter-5.html#ch-mechanisms"><span class="std std-ref">On the mechanisms</span></a>). To determine the granule size distribution 1 L of sample was poured over a series of sieves with different mesh sizes (212, 425, 630, 1000, 1400 and 2000 µm). A mixed sample of 100 mL was filtered for the determination of the total dry weight. The obtained granular biomass of the different sieve fractions and the mixed sample were dried at 105 °C until no change in weight was detected anymore.</p>
+</section>
+<section id="density-measurements">
+<h3>Density measurements<a class="headerlink" href="#density-measurements" title="Permalink to this headline">#</a></h3>
+<p>The Percoll centrifugation method was used to measure the density of the granules <span id="id21">[<a class="reference internal" href="references.html#id50" title="T. Etterer and P. A. Wilderer. Generation and properties of aerobic granular sludge. Water Sci. Technol., 43(3):19–26, feb 2001. doi:10.2166/wst.2001.0114.">Etterer and Wilderer, 2001</a>, <a class="reference internal" href="references.html#id79" title="M. K. H. Winkler, R. Kleerebezem, M. Strous, K. Chandran, and M. C. M. van Loosdrecht. Factors influencing the density of aerobic granular sludge. Appl. Microbiol. Biotechnol., 97(16):7459–7468, 2013. doi:10.1007/s00253-012-4459-4.">Winkler <em>et al.</em>, 2013</a>]</span>. Centrifugation was performed for 120 min at 12.000 rpm (15,777 g) in a Stratos Biofuge (Heraeus Instruments). A standard (non-swing out) rotor holding plastic tubes containing 10 mL solution was used. The speed-up setting on the Biofuge was 9, and the slow-down setting was 1. The slow reduction of speed was set to limit the change of sudden slowdown on the granule position in the Percoll. Marker beads were added ranging from 1,023 to 1,084 kg m<sup>-3</sup>.</p>
+</section>
+<section id="voidage-measurements">
+<h3>Voidage measurements<a class="headerlink" href="#voidage-measurements" title="Permalink to this headline">#</a></h3>
+<p>The minimum voidage between granules was measured with the Dextran Blue method <span id="id22">[<a class="reference internal" href="references.html#id56" title="J. J. Beun, M. C. M. van Loosdrecht, and J. J. Heijnen. Aerobic granulation in a sequencing batch airlift reactor. Water Res., 36(3):702–712, 2002. doi:10.1016/S0043-1354(01)00250-0.">Beun <em>et al.</em>, 2002</a>]</span>. Granules were sieved with tap water and a known volume (between 300 and 400 mm) was added to a graduated measuring cylinder. An amount of 300 mg of Dextran Blue was weighed on an analytical balance, dissolved in a small amount of water and added to the measuring cylinder. Then the measuring cylinder was filled to 1000 mL and stirred. After settling of the granules, a sample of the supernatant was taken and filtered with a Millipore 0.45 µm glass fiber filter to remove small particulate matter. The concentration of Dextran Blue in the sample was then measured with a spectrophotometer at 620 nm. Based on the dilution of the Dextran Blue and the known volume of the granular bed, the voidage between the granules was calculated according the following formula, where <span class="math notranslate nohighlight">\(V\)</span> is the volume of the cylinder, <span class="math notranslate nohighlight">\(c_{db}\)</span> the concentration of Dextran Blue, <span class="math notranslate nohighlight">\(m_{db}\)</span> the mass of the Dextran Blue and <span class="math notranslate nohighlight">\(V_{bed}\)</span> is the volume of the settled sludge:</p>
+<div class="math notranslate nohighlight" id="equation-eq-voidagemeasurement">
+<span class="eqno">(13)<a class="headerlink" href="#equation-eq-voidagemeasurement" title="Permalink to this equation">#</a></span>\[	\epsilon = 1 - \frac{V c_{db}-m_{db}}{V_{bed} c_{db}}\]</div>
+</section>
+<section id="measurement-of-terminal-velocities">
+<h3>Measurement of terminal velocities<a class="headerlink" href="#measurement-of-terminal-velocities" title="Permalink to this headline">#</a></h3>
+<p>To determine the terminal velocity of individual granules, sludge was sieved using sieves with mesh sizes of 212, 425, 630, 1180, 1700 and 2000 µm.
+Sieved granules were placed in a glass measuring cylinder with a height of 43 cm and a diameter of 6 cm. The cylinder was filled with tap water at room temperature.  The granules were pre-conditioned and washed with tap water. Since the difference of the total dissolved solids of tap water (254 mg L<sup>-1</sup>) and effluent (439 mg L<sup>-1</sup>) was small, the effect of using tap water instead of effluent on the settling velocity likely was very small. The settling of granules was recorded using a video camera in order to determine the settling time for a marked distance of 20.7 cm.  The camera was placed perpendicular to the exact mid-point of the marked settling distance to minimize parallax errors. The settling velocity was subsequently calculated by dividing the marked distance by the settling time. The influence of the wall effect on the measured settling velocity was evaluated based on the method described by <span id="id23">Di Felice [<a class="reference internal" href="references.html#id65" title="R. Di Felice. A relationship for the wall effect on the settling velocity of a sphere at any flow regime. Int. J. Multiph. Flow, 22(3):527–533, 1996. doi:10.1016/0301-9322(96)00004-3.">1996</a>]</span>. In the worst-case situation (granules of 2 mm) this effect was less than 2.5 %. This was deemed sufficiently low to be negligible.</p>
+</section>
+<section id="measurement-of-bed-expansion">
+<h3>Measurement of bed expansion<a class="headerlink" href="#measurement-of-bed-expansion" title="Permalink to this headline">#</a></h3>
+<p>Experiments with full-scale aerobic granular sludge were performed using a setup, adapted from Baldock <span id="id24">[<a class="reference internal" href="references.html#id78" title="T. E. Baldock, M. R. Tomkins, P. Nielsen, and M. G. Hughes. Settling velocity of sediments at high concentrations. Coast. Eng., 51(1):91–100, 2004. doi:10.1016/j.coastaleng.2003.12.004.">Baldock <em>et al.</em>, 2004</a>]</span>. Using this setup (<a class="reference internal" href="#fig-measuringcolumn"><span class="std std-numref">Fig. 15</span></a>) the settling characteristics of granules of different sizes were measured. The height of the column was  200 cm with an inner diameter of 153.6 mm. The lower 18 cm of the column was used as a flow equalization section, and therefore filled with glass marbles. On top of the marbles there was a mesh support, to prevent granules to cross into the equalization section. The volume above the mesh was partially filled with granules for the experiment. The granules were obtained by sieving granules directly from a full-scale aerobic granular sludge reactor, using sieves with mesh sizes of 1000 and 2000 µm.</p>
+<p>Effluent of the wastewater treatment plant was fed from the bottom of the column using a peristaltic pump. The water was fed at upflow velocities between 3 and 15 m h<sup>-1</sup> to fluidize the granular bed. The upflow velocity was increased in steps until the granular bed reached the top of the column. Then the upflow velocity was decreased in steps until the bed was completely settled again. At every step the upflow velocity was kept constant until no change in the bed height was detected anymore.  The effluent was removed through a hole in the wall at the top of the column.</p>
+</section>
+<section id="full-scale-settling-of-a-mixed-granular-bed">
+<h3>Full-scale settling of a mixed granular bed<a class="headerlink" href="#full-scale-settling-of-a-mixed-granular-bed" title="Permalink to this headline">#</a></h3>
+<p>Settling of a mature granular bed was measured in the full-scale Nereda<sup>®</sup> reactor in Utrecht, which is a 12,000 m<sup>3</sup> reactor containing 6.7 g L<sup>-1</sup> of MLSS.  First the reactor was intensely mixed by aerating for 20 min and a sample was taken to determine the biomass concentration. After the aeration the sludge bed was allowed to settle. Samples of the sludge bed were taken at different levels below the water surface (0, 2, 4, 6 and 7 m) after 0, 5, 10, 15 and 17 minutes. The samples were taken with a Kemmerer sampling bottle of 1.5 L and sieved to measure the granule size distribution.</p>
+<figure class="align-default" id="fig-measuringcolumn">
+<img alt="_images/figure_column.svg" src="_images/figure_column.svg" /><figcaption>
+<p><span class="caption-number">Fig. 15 </span><span class="caption-text">Column used for measuring bed settling characteristics of aerobic granular sludge.</span><a class="headerlink" href="#fig-measuringcolumn" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
+</section>
+<section id="modelling-of-terminal-velocity">
+<h3>Modelling of terminal velocity<a class="headerlink" href="#modelling-of-terminal-velocity" title="Permalink to this headline">#</a></h3>
+<p>The terminal settling velocity of a spherical particle in a fluid can be calculated based on a force balance:</p>
+<div class="math notranslate nohighlight" id="equation-eq-forcebalance">
+<span class="eqno">(14)<a class="headerlink" href="#equation-eq-forcebalance" title="Permalink to this equation">#</a></span>\[	F_W = F_B + F_D\]</div>
+<p>Here <span class="math notranslate nohighlight">\(F_W\)</span> is the weight of the particle, <span class="math notranslate nohighlight">\(F_B\)</span> is the buoyancy and <span class="math notranslate nohighlight">\(F_D\)</span> is the drag force.</p>
+<p>The weight of a particle can be calculated from the diameter <span class="math notranslate nohighlight">\(d\)</span> and the density <span class="math notranslate nohighlight">\(\rho_B\)</span> using the following equation, where <span class="math notranslate nohighlight">\(g\)</span> is the gravitational acceleration:</p>
+<div class="math notranslate nohighlight" id="equation-eq-weigth">
+<span class="eqno">(15)<a class="headerlink" href="#equation-eq-weigth" title="Permalink to this equation">#</a></span>\[	F_W = \frac{\pi}{6}d^3\rho_B g\]</div>
+<p>With a similar equation the buoyancy can be calculated, using <span class="math notranslate nohighlight">\(\rho_L\)</span> for the density of the surrounding liquid:</p>
+<div class="math notranslate nohighlight" id="equation-eq-buoyance">
+<span class="eqno">(16)<a class="headerlink" href="#equation-eq-buoyance" title="Permalink to this equation">#</a></span>\[	F_B = \frac{\pi}{6}d^3\rho_L g\]</div>
+<p>The drag force of the particle while falling in the fluid is calculated by:</p>
+<div class="math notranslate nohighlight" id="equation-eq-drag">
+<span class="eqno">(17)<a class="headerlink" href="#equation-eq-drag" title="Permalink to this equation">#</a></span>\[	F_D = \frac{1}{8} \pi C_D \rho_L d^2 v_t^2\]</div>
+<p>where <span class="math notranslate nohighlight">\(v_t\)</span> is the terminal velocity of the particle and <span class="math notranslate nohighlight">\(C_D\)</span> is the drag coefficient. Combining equation <a class="reference internal" href="#equation-eq-forcebalance">(14)</a> to <a class="reference internal" href="#equation-eq-drag">(17)</a> leads to the equation for the terminal velocity of a particle:</p>
+<div class="math notranslate nohighlight" id="equation-eq-terminalvelocity">
+<span class="eqno">(18)<a class="headerlink" href="#equation-eq-terminalvelocity" title="Permalink to this equation">#</a></span>\[	v_t = \left[\frac{4 g (\rho_B - \rho_L)d}{3 C_D \rho_L}\right]^{\frac{1}{2}}\]</div>
+<p>For particle Reynolds numbers (<span class="math notranslate nohighlight">\(Re\)</span>) below 0.1 the value of <span class="math notranslate nohighlight">\(C_D\)</span> can be calculated using Stokes law. Since settling of aerobic granular mostly takes place in the intermediate flow regime (<span class="math notranslate nohighlight">\(0.1 &lt; Re &lt; 1000\)</span>) another relationship needs to be adopted. Also, equations <a class="reference internal" href="#equation-eq-weigth">(15)</a> to <a class="reference internal" href="#equation-eq-terminalvelocity">(18)</a> assume smooth, rigid, spherical particles. Although aerobic granules have a nearly spherical shape, they are not always smooth or rigid. Therefore, a specific empirical relation for the drag coefficient has to be established for aerobic granular sludge. Several empirical relationships exist to relate the drag coefficient <span class="math notranslate nohighlight">\(C_D\)</span> to the particle Reynolds number <span id="id25">[<a class="reference internal" href="references.html#id76" title="C. Nicolella, M. C. M. van Loosdrecht, R. Di Felice, and M. Rovatti. Terminal settling velocity and bed-expansion characteristics of biofilm coated particles. Biotechnol. Bioeng., 62(1):62–70, jan 1999. doi:10.1002/(SICI)1097-0290(19990105)62:1&lt;62::AID-BIT8&gt;3.0.CO;2-U.">Nicolella <em>et al.</em>, 1999</a>]</span>. A common approach is the use of the equation:</p>
+<div class="math notranslate nohighlight" id="equation-eq-dragcoefficient">
+<span class="eqno">(19)<a class="headerlink" href="#equation-eq-dragcoefficient" title="Permalink to this equation">#</a></span>\[	C_D = a Re ^b\]</div>
+<p>where <span class="math notranslate nohighlight">\(a\)</span> and <span class="math notranslate nohighlight">\(b\)</span> are empirical constants to be fitted to the type of particles. The parameters <span class="math notranslate nohighlight">\(a\)</span> and <span class="math notranslate nohighlight">\(b\)</span> are only valid in a specific range of the particle Reynolds number. The latter is calculated by:</p>
+<div class="math notranslate nohighlight" id="equation-eq-particlereynolds">
+<span class="eqno">(20)<a class="headerlink" href="#equation-eq-particlereynolds" title="Permalink to this equation">#</a></span>\[	Re = \frac{\rho_L d v_t}{\mu}\]</div>
+<p>Here <span class="math notranslate nohighlight">\(\mu\)</span> is the dynamic viscosity of the liquid.</p>
+<p>In this study the values of <span class="math notranslate nohighlight">\(a\)</span> and <span class="math notranslate nohighlight">\(b\)</span> where measured using the column set-up described earlier.</p>
+</section>
+<section id="modelling-of-bed-behaviour">
+<h3>Modelling of bed behaviour<a class="headerlink" href="#modelling-of-bed-behaviour" title="Permalink to this headline">#</a></h3>
+<p>The Richardson and Zaki equation <span id="id26">[<a class="reference internal" href="references.html#id77" title="J. F. Richardson and W. N. Zaki. Sedimentation and fluidisation: Part I. Chem. Eng. Res. Des., 32(1 SUPPL.):S82—-S100, 1954. doi:10.1016/s0263-8762(97)80006-8.">Richardson and Zaki, 1954</a>]</span> is widely used to model the bed expansion of rigid spherical particles:</p>
+<div class="math notranslate nohighlight" id="equation-eq-richarsonandzaki">
+<span class="eqno">(21)<a class="headerlink" href="#equation-eq-richarsonandzaki" title="Permalink to this equation">#</a></span>\[	v = v_f \epsilon^n\]</div>
+<p>Here <span class="math notranslate nohighlight">\(v\)</span> is the fluidizing velocity, <span class="math notranslate nohighlight">\(\epsilon\)</span> is the voidage fraction, <span class="math notranslate nohighlight">\(v_f\)</span> is the extrapolated fluidizing velocity at a voidage fraction of unity and <span class="math notranslate nohighlight">\(n\)</span> is the expansion index. In the original work of Richardson and Zaki, <span class="math notranslate nohighlight">\(v_f\)</span> was found to be equal to the terminal velocity <span class="math notranslate nohighlight">\(v_t\)</span> for installations where the reactor diameter was much larger than the particle diameter, according to equation:</p>
+<div class="math notranslate nohighlight" id="equation-eq-settlingvoidageunity">
+<span class="eqno">(22)<a class="headerlink" href="#equation-eq-settlingvoidageunity" title="Permalink to this equation">#</a></span>\[	v_f = v_t 10^{-d/d_{R}}\]</div>
+<p>Later it was shown that if the density of the particles approaches the density of the fluid, this relation is incorrect and <span class="math notranslate nohighlight">\(v_f\)</span> is at least 20 % smaller than <span class="math notranslate nohighlight">\(v_t\)</span> <span id="id27">[<a class="reference internal" href="references.html#id76" title="C. Nicolella, M. C. M. van Loosdrecht, R. Di Felice, and M. Rovatti. Terminal settling velocity and bed-expansion characteristics of biofilm coated particles. Biotechnol. Bioeng., 62(1):62–70, jan 1999. doi:10.1002/(SICI)1097-0290(19990105)62:1&lt;62::AID-BIT8&gt;3.0.CO;2-U.">Nicolella <em>et al.</em>, 1999</a>, <a class="reference internal" href="references.html#id74" title="R. Di Felice. Hydrodynamics of liquid fluidisation. Chem. Eng. Sci., 50(8):1213–1245, apr 1995. doi:10.1016/0009-2509(95)98838-6.">Di Felice, 1995</a>]</span>.</p>
+<p>The expansion index <span class="math notranslate nohighlight">\(n\)</span> is also a function of the flow regime. Richardson and Zaki proposed a relation with the particle Reynolds number. Others studies <span id="id28">[<a class="reference internal" href="references.html#id71" title="M. Andalib, J. Zhu, and G. Nakhla. A new definition of bed expansion index and voidage for fluidized biofilm-coated particles. Chem. Eng. J., 189-190:244–249, 2012. doi:10.1016/j.cej.2012.02.065.">Andalib <em>et al.</em>, 2012</a>]</span> found a relation to the Archimedes number more suitable for describing the relation between flow regime and expansion index. In this study we use the relation given by <span id="id29">Mulcahy and Shieh [<a class="reference internal" href="references.html#id73" title="L. T. Mulcahy and W. K. Shieh. Fluidization and reactor biomass characteristics of the denitrification fluidized bed biofilm reactor. Water Res., 21(4):451–458, 1987. doi:10.1016/0043-1354(87)90193-X.">1987</a>]</span> which is based on the Reynolds number (equation <a class="reference internal" href="#equation-eq-expansionindex">(23)</a>), but in chapter <a class="reference internal" href="chapter-5.html#ch-mechanisms"><span class="std std-ref">On the mechanisms</span></a> we use a relation based on the Archimedes number (equation <a class="reference internal" href="chapter-5.html#equation-eq-expansionindex-archimedes">(35)</a>) as we found that better suits a integral model, also describing settling of flocs.</p>
+<div class="math notranslate nohighlight" id="equation-eq-expansionindex">
+<span class="eqno">(23)<a class="headerlink" href="#equation-eq-expansionindex" title="Permalink to this equation">#</a></span>\[	n = 10.35 Re_p ^{-0.18}\]</div>
+<p>The Richardson and Zaki equation is only valid for mono-disperse solids. Since an aerobic granular sludge bed generally consists of granules with sizes in the range of 200 - 5000 µm (see <a class="reference internal" href="#tab-granulesizedistribution"><span class="std std-numref">Table 7</span></a>), a multi-disperse approach is needed to model the fluidization and settling of aerobic granular sludge beds. Multiple solutions describing multi-disperse solids exist <span id="id30">[<a class="reference internal" href="references.html#id59" title="W. C. Yang. Handbook of Fluidization and Fluid-Particle Systems. CRC Press, 2003. doi:10.1201/9780203912744.">Yang, 2003</a>]</span> and here the approach described by <span id="id31">Patwardhan and Tien [<a class="reference internal" href="references.html#id72" title="V. S. Patwardhan and C. Tien. Sedimentation and liquid fluidization of solid particles of different sizes and densities. Chem. Eng. Sci., 40(7):1051–1060, 1985. doi:10.1016/0009-2509(85)85062-4.">1985</a>]</span> was used. The granules are divided in <span class="math notranslate nohighlight">\(N\)</span> classes with subscript <span class="math notranslate nohighlight">\(j\)</span>, and the local settling velocity is calculated based on an apparent voidage <span class="math notranslate nohighlight">\(\epsilon_j\)</span>. This leads to the following equation:</p>
+<div class="math notranslate nohighlight" id="equation-eq-velocityofclass">
+<span class="eqno">(24)<a class="headerlink" href="#equation-eq-velocityofclass" title="Permalink to this equation">#</a></span>\[	v_j = k_j v_{f,j} \epsilon_{j}^{n_j-2}\frac{\rho_{B,j} - \rho_{bed}}{\rho_{B,j}-\rho_L}\]</div>
+<p>Here <span class="math notranslate nohighlight">\(k_j\)</span> is a correction factor for wall effects. This factor can be set to unity for large full-scale reactors where the diameter of the reactor <span class="math notranslate nohighlight">\(d_{R}\)</span> is much larger than the granule diameter and consequently has less impact. For smaller reactors (for example lab reactors), the value of k can be calculated according to:</p>
+<div class="math notranslate nohighlight" id="equation-eq-walleffect">
+<span class="eqno">(25)<a class="headerlink" href="#equation-eq-walleffect" title="Permalink to this equation">#</a></span>\[	k_j = 1 - 1.15 \left(\frac{d_j}{d_{R}}\right)^{0.6}\]</div>
+<p>The density of the sludge bed <span class="math notranslate nohighlight">\(\rho_{bed}\)</span> is based on the density and the volumetric concentration <span class="math notranslate nohighlight">\(\theta\)</span> of each class:</p>
+<div class="math notranslate nohighlight" id="equation-eq-beddensity">
+<span class="eqno">(26)<a class="headerlink" href="#equation-eq-beddensity" title="Permalink to this equation">#</a></span>\[	\rho_{bed} = \displaystyle\sum_{j=1}^{N}\rho_{B,j} \theta_j  + \rho \left[ 1 - \displaystyle\sum_{j=1}^{N}\theta_j\right]\]</div>
+<p>The apparent voidage factor <span class="math notranslate nohighlight">\(\epsilon_j\)</span> is calculated for every fraction based on the bulk voidage <span class="math notranslate nohighlight">\(\epsilon_L\)</span> using equation <a class="reference internal" href="#equation-eq-effectivevoidage">(27)</a>:</p>
+<div class="math notranslate nohighlight" id="equation-eq-effectivevoidage">
+<span class="eqno">(27)<a class="headerlink" href="#equation-eq-effectivevoidage" title="Permalink to this equation">#</a></span>\[	{\epsilon_{j}} = 1 - {\left[ {1 + \left( {\frac{{\overline{d}}}{{{d_j}}}} \right)\left[ {{{\left( {1 - \epsilon_L} \right)}^{ - \frac{1}{3}}} - 1} \right]} \right]^{ - 3}}\]</div>
+<p>The average granule size is calculated based on the volumetric concentration, the granule diameter and the voidage:</p>
+<div class="math notranslate nohighlight" id="equation-eq-averagediameter">
+<span class="eqno">(28)<a class="headerlink" href="#equation-eq-averagediameter" title="Permalink to this equation">#</a></span>\[	\overline{d} = \frac{\displaystyle\sum_{i=1}^{N}\theta_j d_j}{1-\epsilon_L}\]</div>
+<p>When the sludge bed reaches the minimum voidage, no settling of granules will occur anymore. In the model this is simulated by simply setting the settling velocity to zero below the minimum voidage. This also implies a minimum fluidization velocity, corresponding with the settling velocity at minimum voidage. Although this was not specifically measured in the experiments, this behaviour was observed during the experiments that were performed.</p>
+</section>
+</section>
+<section id="results">
+<h2>Results<a class="headerlink" href="#results" title="Permalink to this headline">#</a></h2>
+<section id="terminal-velocity">
+<h3>Terminal velocity<a class="headerlink" href="#terminal-velocity" title="Permalink to this headline">#</a></h3>
+<p>The terminal velocities of granules obtained from the Nereda<sup>®</sup> reactor in Garmerwolde were measured by dropping individual granules in a measuring cylinder. The obtained terminal velocities with granule sizes between 200 and 2000 µm are presented in <a class="reference internal" href="#fig-terminalvelocity"><span class="std std-numref">Fig. 16</span></a>. Since the granules were sieved, this yielded a range of granule sizes per class, for example between 212 and 425 µm and thus a range of settling velocities. Per class a minimum, average and maximum settling velocity was calculated, and these values were attributed to the minimum, average and maximum granule size of the class. The terminal velocity varied between 10.6 and 86.5 m h<sup>-1</sup> as shown in <a class="reference internal" href="#fig-terminalvelocity"><span class="std std-numref">Fig. 16</span></a>.</p>
+<p>Using the Percoll method a density for granules of 1035 ± 14 kg m<sup>-3</sup>  was found for full-scale granules. With this density the drag coefficient can be calculated using equation <a class="reference internal" href="#equation-eq-terminalvelocity">(18)</a>. Also the particle Reynolds number can be calculated using equation <a class="reference internal" href="#equation-eq-particlereynolds">(20)</a>. Then a plot can be made of the drag coefficient versus the particle Reynolds number (<a class="reference internal" href="#fig-dragcoefficient"><span class="std std-numref">Fig. 17</span></a>). These data were used to estimate the coefficients <span class="math notranslate nohighlight">\(a\)</span> and <span class="math notranslate nohighlight">\(b\)</span> of equation <a class="reference internal" href="#equation-eq-dragcoefficient">(19)</a>. At values <span class="math notranslate nohighlight">\(a = 22.57\)</span> and <span class="math notranslate nohighlight">\(b = -0.690\)</span> we found the best fit with the data.</p>
+<figure class="align-default" id="fig-terminalvelocity">
+<img alt="_images/figure_terminal_velocity.svg" src="_images/figure_terminal_velocity.svg" /><figcaption>
+<p><span class="caption-number">Fig. 16 </span><span class="caption-text">Terminal velocity of individual granules from the full-scale Nereda<sup>®</sup> plant in Garmerwolde; the data points were used to fit the drag coefficient <span class="math notranslate nohighlight">\(C_D\)</span> according to equation <a class="reference internal" href="#equation-eq-terminalvelocity">(18)</a>.</span><a class="headerlink" href="#fig-terminalvelocity" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
+<figure class="align-default" id="fig-dragcoefficient">
+<img alt="_images/figure_drag_coefficient.svg" src="_images/figure_drag_coefficient.svg" /><figcaption>
+<p><span class="caption-number">Fig. 17 </span><span class="caption-text">Drag coefficient of individual granules from the full-scale Nereda<sup>®</sup> plant in Garmerwolde; the data points were used to fit the <span class="math notranslate nohighlight">\(a\)</span> and <span class="math notranslate nohighlight">\(b\)</span> parameters of equation <a class="reference internal" href="#equation-eq-dragcoefficient">(19)</a>.</span><a class="headerlink" href="#fig-dragcoefficient" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
+<p>The experiments resulting in <a class="reference internal" href="#fig-terminalvelocity"><span class="std std-numref">Fig. 16</span></a> were all obtained with relatively spherical and smooth granules. Sometimes granules are not smooth and spherical and for example finger-type outgrowths exist at the surface of the granules. This can have a negative effect on the settling velocity. <a class="reference internal" href="#fig-hairygranules"><span class="std std-numref">Fig. 18</span></a> shows the difference between smooth spherical granules and granules with finger-type outgrowth on the granule surface for granules of 1.7 and 2.0 mm. The difference in terminal velocity is up to 27 %. and seems to be larger for smaller granules. A comparison of smooth granules and granules with outgrowth is shown in <a class="reference internal" href="#fig-granulemorphology"><span class="std std-numref">Fig. 19</span></a>.</p>
+<figure class="align-default" id="fig-hairygranules">
+<img alt="_images/figure_hairy_smooth.svg" src="_images/figure_hairy_smooth.svg" /><figcaption>
+<p><span class="caption-number">Fig. 18 </span><span class="caption-text">Comparison of settling velocity of smooth granules and granules with finger-type outgrowth. Granules from the Nereda<sup>®</sup> plant in Garmerwolde.</span><a class="headerlink" href="#fig-hairygranules" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
+<figure class="align-default" id="fig-granulemorphology">
+<img alt="_images/granule_morphology.jpg" src="_images/granule_morphology.jpg" />
+<figcaption>
+<p><span class="caption-number">Fig. 19 </span><span class="caption-text">Comparison of smooth granules (A) and granules with finger-type outgrowth (B). Granules from the Nereda<sup>®</sup> plant in Garmerwolde.</span><a class="headerlink" href="#fig-granulemorphology" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
+</section>
+<section id="bed-expansion">
+<h3>Bed expansion<a class="headerlink" href="#bed-expansion" title="Permalink to this headline">#</a></h3>
+<p>The results of the bed expansion experiment for granules from the <a class="reference internal" href="glossary.html#term-PNU"><span class="xref std std-term">PNU</span></a> of sizes between 1 and 2 mm are shown in <a class="reference internal" href="#fig-bedexpansion"><span class="std std-numref">Fig. 20</span></a>. The experiment was started with a sludge bed of 47 cm of sieved granules. The voidage fraction of de sludge bed was 51.9 %. The up-flow velocity was increased in steps from 6.0 - 14.1 m h<sup>-1</sup>. At an up-flow velocity of 14.1 m h<sup>-1</sup> some of the granules started to wash out, because the top of the sludge blanket reached the outlet of the column. Subsequently the up-flow velocity was reduced in steps from 14.4 - 3.3 m h<sup>-1</sup>. After the experiment some segregation in the sludge bed could be noticed, showing larger granules at the bottom of the column and smaller granules at the top of the sludge blanket.</p>
+<figure class="align-default" id="fig-bedexpansion">
+<img alt="_images/figure_bed_expansion.svg" src="_images/figure_bed_expansion.svg" /><figcaption>
+<p><span class="caption-number">Fig. 20 </span><span class="caption-text">Bed expansion experiment with sieved granules (1 -2 mm) from the Prototype Nereda<sup>®</sup> Utrecht; data points were used to fit the extrapolated fluidizing velocity and the expansion index according to equation <a class="reference internal" href="#equation-eq-richarsonandzaki">(21)</a>.</span><a class="headerlink" href="#fig-bedexpansion" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
+<p>The data from the bed expansion experiment were used to estimate the parameters of the Richardson and Zaki model. At an average granule size of 1.5 mm we found a value of <span class="math notranslate nohighlight">\(v_f\)</span> of 29.9 m h<sup>-1</sup> and an expansion index <span class="math notranslate nohighlight">\(n\)</span> of 5.65. The extrapolated fluidizing velocity <span class="math notranslate nohighlight">\(v_f\)</span> of 29.9 m h<sup>-1</sup> is 50 % lower than the terminal velocity for granules of 1.5 mm calculated with equation <a class="reference internal" href="#equation-eq-terminalvelocity">(18)</a> to <a class="reference internal" href="#equation-eq-particlereynolds">(20)</a> and the parameters for <span class="math notranslate nohighlight">\(a\)</span> and <span class="math notranslate nohighlight">\(b\)</span> calculated in the previous paragraph, which yield a <span class="math notranslate nohighlight">\(v_t\)</span> of 60.4 m h<sup>-1</sup>.</p>
+</section>
+<section id="full-scale-bed-settling">
+<h3>Full-scale bed settling<a class="headerlink" href="#full-scale-bed-settling" title="Permalink to this headline">#</a></h3>
+<p>In the full-scale Nereda<sup>®</sup> reactor in Utrecht a settling experiment was performed to measure the settling of a mature granular bed. The results were used to validate the multi-disperse settling model. The parameters that were identified using the sludge from Garmerwolde and from the Prototype Nereda<sup>®</sup> in Utrecht were used in this multi-disperse settling model for the full-scale Nereda<sup>®</sup> in Utrecht. Since all three plants are treating domestic wastewater, we expect that the observed parameters are valid for granular sludge reactors operated with similar type of domestic wastewater.</p>
+<p>The granule size distribution of the sludge bed is shown in <a class="reference internal" href="#tab-granulesizedistribution"><span class="std std-numref">Table 7</span></a>. The table also shows the class average diameter, which is used in the model.</p>
+<table class="colwidths-auto table" id="tab-granulesizedistribution">
+<caption><span class="caption-number">Table 7 </span><span class="caption-text">Granule size distribution in the full-scale Nereda<sup>®</sup> of Utrecht.</span><a class="headerlink" href="#tab-granulesizedistribution" title="Permalink to this table">#</a></caption>
+<thead>
+<tr class="row-odd"><th class="head"><p>class</p></th>
+<th class="head"><p>class mean diameter</p></th>
+<th class="head"><p>concentration</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>(µm)</p></td>
+<td><p>(µm)</p></td>
+<td><p>(kg m<sup>-3</sup>)</p></td>
+</tr>
+<tr class="row-odd"><td><p>0-212</p></td>
+<td><p>106</p></td>
+<td><p>1.28</p></td>
+</tr>
+<tr class="row-even"><td><p>212-425</p></td>
+<td><p>318</p></td>
+<td><p>0.82</p></td>
+</tr>
+<tr class="row-odd"><td><p>425-630</p></td>
+<td><p>527</p></td>
+<td><p>0.28</p></td>
+</tr>
+<tr class="row-even"><td><p>630-1000</p></td>
+<td><p>815</p></td>
+<td><p>0.63</p></td>
+</tr>
+<tr class="row-odd"><td><p>1000-1400</p></td>
+<td><p>1200</p></td>
+<td><p>1.03</p></td>
+</tr>
+<tr class="row-even"><td><p>1400-2000</p></td>
+<td><p>1700</p></td>
+<td><p>1.39</p></td>
+</tr>
+<tr class="row-odd"><td><p>&gt; 2000</p></td>
+<td><p>3000</p></td>
+<td><p>1.22</p></td>
+</tr>
+</tbody>
+</table>
+<p>In <a class="reference internal" href="#fig-settling-15min"><span class="std std-numref">Fig. 21</span></a> an example of the results is shown. The figure shows the measurements and simulation results for the different granule fractions at the start of the experiment (0 min) and after 15 min of settling. The concentration of the granule fraction is shown on the x-axis and the depth below the water surface is shown on the y-axis. At the start of the simulation the reactor is assumed to be completely mixed. In the experiment this was done by intense aerating for 20 min. After the aeration was stopped the sludge started to settle.</p>
+<p>After 15 min the model shows that the largest fraction (&gt; 2000 mm) is almost settled, and granules are stacking on top of each other at the bottom of the reactor. The model calculates that at the bottom the minimum voidage fraction is already reached after 5 min. On the other hand, the smallest fraction (212 - 425 µm) only just started to settle. Only in first meter from the top of the reactor a decrease of this fraction can be seen in the model results. At the sampling point 2 m below the water surface even no change compared to the start was detected, which is also observed in the model results. Only at the bottom first meter of the reactor an increase of this fraction can be seen. The measured sludge concentrations are well resembled by the model for all fractions.</p>
+<p>For the middle fractions and especially for the fraction of 1400 - 2000 µm a peak in the solids concentration can be seen at a depth just below 6 m. This is caused by the lower concentration of the largest fraction at this water depth, because this fraction is already almost completely settled below 6 m. The smaller fractions settle on top of the larger fraction, allowing for the smaller fractions to reach higher concentrations.</p>
+<p><a class="reference internal" href="#fig-settling-f1000"><span class="std std-numref">Fig. 22</span></a> shows the measurements and simulation results for the granule fraction between 1000 µm and 1400µm. For every time frame the concentration of the granule fraction is shown on the x-axis and the depth below the water surface is shown on the y-axis. After 5 min no change was measured at the sampling points, which is resembled by the model. After  10 min the concentrations at the upper sampling point goes down and the concentration at the lower sampling point goes up. This behaviour is also resembled by the model, although at the lower sampling point the concentrations seems to increase a bit faster than in the model. After  15 min and  17 min the model and the sampling show similar behaviour.</p>
+<p>The results for the other fractions also showed a good agreement between model and the measurements performed at the full-scale installation. These results can be found in appendix <a class="reference internal" href="appendix_1.html#appendix-settling-experiment"><span class="std std-ref">Settling experiment</span></a>.</p>
+<figure class="align-default" id="fig-settling-15min">
+<img alt="_images/figure_settling_15min.svg" src="_images/figure_settling_15min.svg" /><figcaption>
+<p><span class="caption-number">Fig. 21 </span><span class="caption-text">Settling of 6 classes of granules in a full-scale Nereda<sup>®</sup> reactor in Utrecht after 0 minutes and after 15 minutes; model results (dashed line: 0 minutes, solid line: 15 minutes) and measurements (dots).</span><a class="headerlink" href="#fig-settling-15min" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
+<figure class="align-default" id="fig-settling-f1000">
+<img alt="_images/figure_settling_f1000.svg" src="_images/figure_settling_f1000.svg" /><figcaption>
+<p><span class="caption-number">Fig. 22 </span><span class="caption-text">Settling of granules of sizes between 1000 µm and 1400µm in a full-scale Nereda<sup>®</sup> reactor in Utrecht; model results (line) and measurements (dots) at settling times between 0 and 17 minutes.</span><a class="headerlink" href="#fig-settling-f1000" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
+</section>
+</section>
+<section id="discussion">
+<h2>Discussion<a class="headerlink" href="#discussion" title="Permalink to this headline">#</a></h2>
+<section id="terminal-settling-velocity">
+<h3>Terminal settling velocity<a class="headerlink" href="#terminal-settling-velocity" title="Permalink to this headline">#</a></h3>
+<p>This study showed that the terminal settling velocity of aerobic granular sludge can be well described by a model based on
+Newtonian drag. The proposed formula to calculate the drag coefficient (equation <a class="reference internal" href="#equation-eq-finaldragcoefficient">(29)</a>) was tested for particle Reynolds numbers between 1 and 50. The coefficients of the formula are different from the values reported in literature <span id="id32">[<a class="reference internal" href="references.html#id76" title="C. Nicolella, M. C. M. van Loosdrecht, R. Di Felice, and M. Rovatti. Terminal settling velocity and bed-expansion characteristics of biofilm coated particles. Biotechnol. Bioeng., 62(1):62–70, jan 1999. doi:10.1002/(SICI)1097-0290(19990105)62:1&lt;62::AID-BIT8&gt;3.0.CO;2-U.">Nicolella <em>et al.</em>, 1999</a>]</span> for biofilm coated particles. This is not remarkable since the average density of the aerobic sludge granules used in this study was considerably lower than the density of the biofilm coated particles.</p>
+<div class="math notranslate nohighlight" id="equation-eq-finaldragcoefficient">
+<span class="eqno">(29)<a class="headerlink" href="#equation-eq-finaldragcoefficient" title="Permalink to this equation">#</a></span>\[	C_D = 22.57 Re^{-0.690} \qquad 1&lt;Re&lt;50\]</div>
+</section>
+<section id="bed-expansion-characteristics">
+<h3>Bed expansion characteristics<a class="headerlink" href="#bed-expansion-characteristics" title="Permalink to this headline">#</a></h3>
+<p>The bed expansion experiment showed good correlation with the Richardson and Zaki model (equation <a class="reference internal" href="#equation-eq-richarsonandzaki">(21)</a>). In the experiment sieved granules were used in the range of 1000 - 2000 µm. The experiment yielded an expansion index <span class="math notranslate nohighlight">\(n\)</span> of 5.65 for an average granule size of 1.5 mm, which is close to the value of 5.79 given by equation <a class="reference internal" href="#equation-eq-expansionindex">(23)</a>. The ratio between the terminal velocity <span class="math notranslate nohighlight">\(v_t\)</span> and the extrapolated fluidizing velocity <span class="math notranslate nohighlight">\(v_i\)</span> was close to 0.5. For biofilm-coated particles a value of 0.8 was found by <span id="id33">Nicolella <em>et al.</em> [<a class="reference internal" href="references.html#id76" title="C. Nicolella, M. C. M. van Loosdrecht, R. Di Felice, and M. Rovatti. Terminal settling velocity and bed-expansion characteristics of biofilm coated particles. Biotechnol. Bioeng., 62(1):62–70, jan 1999. doi:10.1002/(SICI)1097-0290(19990105)62:1&lt;62::AID-BIT8&gt;3.0.CO;2-U.">1999</a>]</span>. According to <span id="id34">Nicolella <em>et al.</em> [<a class="reference internal" href="references.html#id76" title="C. Nicolella, M. C. M. van Loosdrecht, R. Di Felice, and M. Rovatti. Terminal settling velocity and bed-expansion characteristics of biofilm coated particles. Biotechnol. Bioeng., 62(1):62–70, jan 1999. doi:10.1002/(SICI)1097-0290(19990105)62:1&lt;62::AID-BIT8&gt;3.0.CO;2-U.">1999</a>]</span> it is not uncommon for large low-density solids that this ratio is lower than unity, but no explanation was given.</p>
+</section>
+<section id="full-scale-validation">
+<h3>Full-scale validation<a class="headerlink" href="#full-scale-validation" title="Permalink to this headline">#</a></h3>
+<p>As shown in the full-scale experiment in the Nereda<sup>®</sup> reactor in Utrecht, a mature aerobic granular sludge bed can consist of a wide range of granule sizes. The difference in setting velocity can be an order of magnitude, leading to segregation in the sludge bed: the largest granules will settle much faster than the smallest granules. This leads to a high concentration of large granules at the bottom of the reactor after only a few minutes of settling, while the smallest granules are still distributed throughout the reactor.  To describe this behaviour a single fraction Richardson and Zaki model does not suffice and a multi-disperse version of the Richardson and Zaki model was adopted, using the Patwardhan and Tien extension. With this extended model it was possible to describe the settling experiments performed at the full-scale Nereda<sup>®</sup> reactor in Utrecht well, without any further calibration of the model.</p>
+</section>
+<section id="selection-pressure">
+<h3>Selection pressure<a class="headerlink" href="#selection-pressure" title="Permalink to this headline">#</a></h3>
+<p>In AGS reactors a hydraulic selection pressure to selectively retain granules over flocs is applied. This is especially relevant during the start-up phase when granules are still relatively small. The differential settling rate of granules and flocs is essential for this selection process. Excess sludge is typically removed from the top of the sludge blanket after a settling period, removing the slower settling sludge (flocculent matter, small granules or eroded material from larger granules) from the reactor and thereby selecting for the better settling granules in the reactor. Using the hydraulic selection pressure as a sludge wasting mechanism is a good method for making the cut-off between granules and flocs and it is often used as the only sludge wasting mechanism. The downside of using the selection pressure as the only wasting mechanism is that it does not directly influence the granule size distribution. This is important, because the granule size distribution will influence overall nutrient removal. The differences in diffusion limitation into the granules and differences in overall MLSS concentrations will lead to different nutrient removal rates <span id="id35">[<a class="reference internal" href="references.html#id64" title="F. Y. Chen, Y. Q. Liu, J. H. Tay, and P. Ning. Operational strategies for nitrogen removal in granular sequencing batch reactor. J. Hazard. Mater., 189(1-2):342–348, 2011. doi:10.1016/j.jhazmat.2011.02.041.">Chen <em>et al.</em>, 2011</a>, <a class="reference internal" href="references.html#id63" title="B. J. Ni and H. Q. Yu. Mathematical modeling of aerobic granular sludge: A review. Biotechnol. Adv., 28(6):895–909, nov 2010. doi:10.1016/J.BIOTECHADV.2010.08.004.">Ni and Yu, 2010</a>, <a class="reference internal" href="references.html#id82" title="M. K. de Kreuk, J. J. Heijnen, and M. C. M. van Loosdrecht. Simultaneous COD, nitrogen, and phosphate removal by aerobic granular sludge. Biotechnol. Bioeng., 90(6):761–769, 2005. doi:10.1002/bit.20470.">de Kreuk <em>et al.</em>, 2005</a>]</span>.</p>
+<p>Using the model, it can be shown that different stable granule size distributions can exist at the same selection pressure. A uniform sludge bed with granules of 700 µm can be as stable regarding selection pressure as a disperse bed with granules in the range of 200 - 5000 µm. This is shown in <a class="reference internal" href="#fig-uniform-vs-disperse"><span class="std std-numref">Fig. 23</span></a>. After 30 minutes of settling the bed height of the uniform bed and the disperse bed are equal.  However, when granules grow too large, they become difficult to suspend by aeration and they will get diffusion-limited during the anaerobic feeding phase. Therefore, it is necessary to remove both selection sludge and excess granular sludge in aerobic granular sludge reactors with a well-developed sludge bed. This implies that a dynamic selection pressure is needed to control the granule size distribution in the reactor. In full-scale reactors this can be done by increasing the selection pressure to remove specific granule sizes. The here developed model combined with a bioconversion model <span id="id36">[<a class="reference internal" href="references.html#id63" title="B. J. Ni and H. Q. Yu. Mathematical modeling of aerobic granular sludge: A review. Biotechnol. Adv., 28(6):895–909, nov 2010. doi:10.1016/J.BIOTECHADV.2010.08.004.">Ni and Yu, 2010</a>]</span> could be used to predict the optimal selection pressure and granule size for every cycle of an AGS reactor.</p>
+<figure class="align-default" id="fig-uniform-vs-disperse">
+<img alt="_images/figure_compare_uniform_disperse.svg" src="_images/figure_compare_uniform_disperse.svg" /><figcaption>
+<p><span class="caption-number">Fig. 23 </span><span class="caption-text">Comparison of the settling of a uniformly sized (A) and a disperse (B) granular sludge bed both after 30 minutes of settling. Left: uniform bed with 8 g L<sup>-1</sup> granules of 700 µm, right: disperse bed with 8 g L<sup>-1</sup> (sizes: 318, 527, 815, 1200, 1700 and 3000 µm; concentration: 1, 1, 1, 1, 2, and 2 g L<sup>-1</sup>.</span><a class="headerlink" href="#fig-uniform-vs-disperse" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
+</section>
+<section id="differences-between-settling-of-flocs-and-granules">
+<h3>Differences between settling of flocs and granules<a class="headerlink" href="#differences-between-settling-of-flocs-and-granules" title="Permalink to this headline">#</a></h3>
+<p><a class="reference internal" href="#fig-particlecoherence"><span class="std std-numref">Fig. 24</span></a> schematically shows the effect of the degree of particle coherence on the settling behaviour of sludge particles. Conventional activated sludge flocs typically reside on the right part of this schematic: small flocs coagulate into larger flocs adapting a zone settling regime and at higher concentrations, under influence of the surrounding sludge flocs, a compression regime. In contrast, aerobic granules typically reside on the left side of the schematic: per definition they do not coagulate <span id="id37">[<a class="reference internal" href="references.html#id60" title="M. K. de Kreuk, N. Kishida, and M. C. M. van Loosdrecht. Aerobic granular sludge - State of the art. Water Sci. Technol., 55(8-9):75–81, 2007. doi:10.2166/wst.2007.244.">de Kreuk <em>et al.</em>, 2007</a>]</span> and will remain in the particle settling regime even at high concentrations. As shown in the full-scale experiment in the Nereda<sup>®</sup> reactor in Utrecht, after reaching the minimum voidage fraction the granules are stacked on top of each other, and they do not undergo an extensive compression regime. This will especially be the case for laboratory AGS reactors. In a full-scale AGS reactor a mature granular bed will typically have a fraction of 1 - 2 kg m<sup>-3</sup> smaller than 200 µm because of wash-in of suspended solids in the influent, sheared off parts of large granules and because of less optimal sludge selection compared to a laboratory reactor. The fraction smaller than 200 µm will also for a part consist of proto-granules. The question arises if the multi-disperse Richardson and Zaki also applies for the non-granular fraction smaller than 200 µm. In the full-scale test this fraction was not measured, so no data is available. Although the floc fraction was not taken into account in the full-scale experiment in Utrecht there was a good resemblance between measurements and model, also for the smallest granule fractions. If the non-granular fraction would have a large impact on the settling behaviour of the granules, it would likely be influencing the smallest fractions. This was not observed in the experiment. It therefore appears that the effect of flocs on the settling behaviour was limited in the experiment. In chapter <a class="reference internal" href="chapter-5.html#ch-mechanisms"><span class="std std-ref">On the mechanisms</span></a> a slightly modified version of the model is used, which better describes the settling of the proto-granules and flocs.</p>
+</section>
+<section id="sludge-morphology">
+<h3>Sludge morphology<a class="headerlink" href="#sludge-morphology" title="Permalink to this headline">#</a></h3>
+<p><a class="reference internal" href="#fig-hairygranules"><span class="std std-numref">Fig. 18</span></a> shows the difference in terminal velocity of smooth spherical granules and granules with outgrowth on the sphere surface. A difference of 27 % was measured for granules of 1.7 mm. No measurements were done on the interaction between granules with outgrowth in a sludge bed, but it is expected that in a reactor with many granules with outgrowth on the surface the settling velocity will be even more reduced. When an AGS reactor is operated at a certain selection pressure, a sudden increase of granules with outgrowth can lead to a drop in the sludge concentration in the reactor, because many granules with outgrowth will be removed via sludge selection (which typically is set to maintain a constant sludge bed height after the set settling time). Small changes in granule morphology therefore can have a major impact on the stability of the granular bed and ultimately effluent quality can be affected.</p>
+<figure class="align-default" id="fig-particlecoherence">
+<img alt="_images/figure_bed_settling.svg" src="_images/figure_bed_settling.svg" /><figcaption>
+<p><span class="caption-number">Fig. 24 </span><span class="caption-text">Effect of particle coherence on settling behaviour, adapted from <span id="id38">Perry <em>et al.</em> [<a class="reference internal" href="references.html#id62" title="R. H. Perry, D. W. Green, and J. O. Maloney. Perry's Chemical Engineers' Handbook. McGraw-Hill, New York, 7th edition, 1997.">1997</a>]</span>.</span><a class="headerlink" href="#fig-particlecoherence" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
+</section>
+<section id="potential-applications-of-the-settling-model">
+<h3>Potential applications of the settling model<a class="headerlink" href="#potential-applications-of-the-settling-model" title="Permalink to this headline">#</a></h3>
+<p>To show the effect of the granule size distribution on nutrient removal in full-scale aerobic granular sludge reactors, a settling model is required, since nitrogen and phosphorus removal will depend on both sludge concentration and granule size <span id="id39">[<a class="reference internal" href="references.html#id51" title="M. K. de Kreuk, C. Picioreanu, M. Hosseini, J. B. Xavier, and M. C. M. van Loosdrecht. Kinetic model of a granular sludge SBR: Influences on nutrient removal. Biotechnol. Bioeng., 97(4):801–815, jul 2007. doi:10.1002/bit.21196.">de Kreuk <em>et al.</em>, 2007</a>]</span>. Large granules will be more diffusion-limited  for processes requiring oxygen in comparison to small granules <span id="id40">[<a class="reference internal" href="references.html#id48" title="J. Pérez, C. Picioreanu, and M. C. M. van Loosdrecht. Modeling biofilm and floc diffusion processes based on analytical solution of reaction-diffusion equations. Water Res., 39(7):1311–1323, apr 2005. doi:10.1016/j.watres.2004.12.020.">Pérez <em>et al.</em>, 2005</a>]</span>. Small granules will therefore have a lower anoxic volume and their contribution to simultaneous denitrification will consequently be less. Moreover, larger granules will reside more at the bottom of the reactor because of superior settling behaviour. Since the currently used batch fed reactor types are fed from the bottom <span id="id41">[<a class="reference internal" href="references.html#id82" title="M. K. de Kreuk, J. J. Heijnen, and M. C. M. van Loosdrecht. Simultaneous COD, nitrogen, and phosphate removal by aerobic granular sludge. Biotechnol. Bioeng., 90(6):761–769, 2005. doi:10.1002/bit.20470.">de Kreuk <em>et al.</em>, 2005</a>]</span>, large granules will receive more COD during anaerobic uptake. The combination of larger granules storing more COD during anaerobic feeding and larger granules being more diffusion-limited for oxygen during aeration gives them a large role in simultaneous nitrification/denitrification <span id="id42">[<a class="reference internal" href="references.html#id70" title="J. B. Xavier, M. K. de Kreuk, C. Picioreanu, and M. C. M. van Loosdrecht. Multi-scale individual-based model of microbial and byconversion dynamics in aerobic granular sludge. Environ. Sci. Technol., 41(18):6410–6417, sep 2007. doi:10.1021/es070264m.">Xavier <em>et al.</em>, 2007</a>]</span>. Our proposed settling model could be combined with already existing conversion models to gain more insight in the influence of settling and segregation of granules on overall conversion rates. The model could also be used for optimizing other operational parameters, such as the MLSS concentration, mixing energy and aeration strategy.</p>
+<p>Another potential application of the multi-disperse settling model is in the understanding of continuously fed AGS reactors. These reactors are currently under development  <span id="id43">[<a class="reference internal" href="references.html#id52" title="T. R. Devlin and J. A. Oleszkiewicz. Cultivation of aerobic granular sludge in continuous flow under various selective pressure. Bioresour. Technol., 253:281–287, 2018. doi:10.1016/j.biortech.2018.01.056.">Devlin and Oleszkiewicz, 2018</a>, <a class="reference internal" href="references.html#id55" title="J. Zou, Y. Tao, J. Li, S. Wu, and Y. Ni. Cultivating aerobic granular sludge in a developed continuous-flow reactor with two-zone sedimentation tank treating real and low-strength wastewater. Bioresour. Technol., 247:776–783, 2018. doi:10.1016/j.biortech.2017.09.088.">Zou <em>et al.</em>, 2018</a>]</span>. Conventional activated sludge systems operated with clarifiers for sludge/water separation will require different design and operation, when the sludge partially consists of granules. Larger granules will settle faster than small granules and flocs, resulting in a different distribution of granules and flocs over the clarifier depth. This differential sedimentation can even be used to perform a form of sludge selection <span id="id44">[<a class="reference internal" href="references.html#id55" title="J. Zou, Y. Tao, J. Li, S. Wu, and Y. Ni. Cultivating aerobic granular sludge in a developed continuous-flow reactor with two-zone sedimentation tank treating real and low-strength wastewater. Bioresour. Technol., 247:776–783, 2018. doi:10.1016/j.biortech.2017.09.088.">Zou <em>et al.</em>, 2018</a>]</span>. The flow patterns in a final clarifier are more complex than in batch wise operated granular sludge reactors with feeding from the bottom and need to be better investigated. The here proposed multi-disperse settling model in combination with a CFD model can be used to investigate and optimize the clarification process in traditional settlers of continuous AGS reactors.</p>
+</section>
+</section>
+<section id="conclusion">
+<h2>Conclusion<a class="headerlink" href="#conclusion" title="Permalink to this headline">#</a></h2>
+<p>A multi-dispersed settling model was made describing the settling and fluidization of aerobic granular sludge. Validation of this model with measurements in a full-scale AGS reactor showed a good resemblance between model and measurements.</p>
+<ul class="simple">
+<li><p>The model is based on the Richardson and Zaki model for multi-disperse particles.</p></li>
+<li><p>A relation between granule size and drag coefficient was established describing the terminal velocity of individual granules based on granule size.</p></li>
+<li><p>The parameters of the Richardson and Zaki model were measured with mono-disperse granules. The extrapolation at a voidage of unity of the fluidizing velocity is approximately 50 % of the terminal settling velocity.</p></li>
+<li><p>The model can be used for optimizing the selection pressure in AGS reactors and for improving nutrient removal. The presented results can be used to better understand the granulation process and can be valuable for future research of continuously fed AGS reactors.</p></li>
+</ul>
+</section>
+<section id="references">
+<h2>References<a class="headerlink" href="#references" title="Permalink to this headline">#</a></h2>
+<!-- ```{bibliography}
+:filter: docname in docnames
+``` --></section>
+</section>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            kernelName: "python3",
+            path: "./."
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+              </div>
+              
+            </main>
+            <footer class="footer-article noprint">
+                
+    <!-- Previous / next buttons -->
+<div class='prev-next-area'>
+    <a class='left-prev' id="prev-link" href="chapter-2.html" title="previous page">
+        <i class="fas fa-angle-left"></i>
+        <div class="prev-next-info">
+            <p class="prev-next-subtitle">previous</p>
+            <p class="prev-next-title">Effluent suspended solids</p>
+        </div>
+    </a>
+    <a class='right-next' id="next-link" href="chapter-4.html" title="next page">
+    <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">Nitrous oxide emission</p>
+    </div>
+    <i class="fas fa-angle-right"></i>
+    </a>
+</div>
+            </footer>
+        </div>
+    </div>
+    <div class="footer-content row">
+        <footer class="col footer"><p>
+  
+    By dr. ir. E.J.H. van Dijk<br/>
+  
+      &copy; Copyright 2022.<br/>
+</p>
+        </footer>
+    </div>
+    
+</div>
+
+
+      </div>
+    </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="_static/scripts/pydata-sphinx-theme.js?digest=1999514e3f237ded88cf"></script>
+
+
+  </body>
+</html>

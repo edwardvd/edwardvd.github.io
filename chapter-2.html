@@ -1,0 +1,1186 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+    <title>Effluent suspended solids &#8212; Principles of the Full Scale Aerobic Granular Sludge Process</title>
+    
+  <!-- Loaded before other Sphinx assets -->
+  <link href="_static/styles/theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
+<link href="_static/styles/pydata-sphinx-theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
+
+    
+  <link rel="stylesheet"
+    href="_static/vendor/fontawesome/5.13.0/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
+    <link rel="stylesheet" href="_static/styles/sphinx-book-theme.css?digest=5115cc725059bd94278eecd172e13a965bf8f5a9" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="_static/mystnb.css" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="_static/design-style.b7bb847fb20b106c3d81b95245e65545.min.css" />
+    
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="_static/scripts/pydata-sphinx-theme.js?digest=1999514e3f237ded88cf">
+
+    <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    <script src="_static/clipboard.min.js"></script>
+    <script src="_static/copybutton.js"></script>
+    <script src="_static/scripts/sphinx-book-theme.js?digest=9c920249402e914e316237a7dbc6769907cce411"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="_static/togglebutton.js"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <script src="_static/design-tabs.js"></script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"
+const thebe_selector = ".thebe,.cell"
+const thebe_selector_input = "pre"
+const thebe_selector_output = ".output, .cell_output"
+</script>
+    <script async="async" src="_static/sphinx-thebe.js"></script>
+    <script>window.MathJax = {"options": {"processHtmlClass": "tex2jax_process|mathjax_process|math|output_area"}}</script>
+    <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Settling behaviour" href="chapter-3.html" />
+    <link rel="prev" title="Introduction" href="chapter-1.html" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="docsearch:language" content="None">
+    
+
+    <!-- Google Analytics -->
+    
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="60">
+<!-- Checkboxes to toggle the left sidebar -->
+<input type="checkbox" class="sidebar-toggle" name="__navigation" id="__navigation" aria-label="Toggle navigation sidebar">
+<label class="overlay overlay-navbar" for="__navigation">
+    <div class="visually-hidden">Toggle navigation sidebar</div>
+</label>
+<!-- Checkboxes to toggle the in-page toc -->
+<input type="checkbox" class="sidebar-toggle" name="__page-toc" id="__page-toc" aria-label="Toggle in-page Table of Contents">
+<label class="overlay overlay-pagetoc" for="__page-toc">
+    <div class="visually-hidden">Toggle in-page Table of Contents</div>
+</label>
+<!-- Headers at the top -->
+<div class="announcement header-item noprint"></div>
+<div class="header header-item noprint"></div>
+
+    
+    <div class="container-fluid" id="banner"></div>
+
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+<!-- Sidebar -->
+<div class="bd-sidebar noprint" id="site-navigation">
+    <div class="bd-sidebar__content">
+        <div class="bd-sidebar__top"><div class="navbar-brand-box">
+    <a class="navbar-brand text-wrap" href="index.html">
+      
+        <!-- `logo` is deprecated in Sphinx 4.0, so remove this when we stop supporting 3 -->
+        
+      
+      
+      <img src="_static/TUDelft_logo_rgb.svg" class="logo" alt="logo">
+      
+      
+      <h1 class="site-logo" id="site-title">Principles of the Full Scale Aerobic Granular Sludge Process</h1>
+      
+    </a>
+</div><form class="bd-search d-flex align-items-center" action="search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this book..." aria-label="Search this book..." autocomplete="off" >
+</form><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item active">
+        
+        <ul class="nav bd-sidenav bd-sidenav__home-link">
+            <li class="toctree-l1">
+                <a class="reference internal" href="titlepage.html">
+                    About
+                </a>
+            </li>
+        </ul>
+        <ul class="current nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="preface.html">
+   An unexpected journey
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="chapter-1.html">
+   Introduction
+  </a>
+ </li>
+ <li class="toctree-l1 current active">
+  <a class="current reference internal" href="#">
+   Effluent suspended solids
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="chapter-3.html">
+   Settling behaviour
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="chapter-4.html">
+   Nitrous oxide emission
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="chapter-5.html">
+   On the mechanisms
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="outlook.html">
+   Outlook
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="epilogue.html">
+   Epilogue
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="acknowledgements.html">
+   Acknowledgements
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="references.html">
+   References
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="glossary.html">
+   Glossary
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="appendix_1.html">
+   Appendix: Full-scale settling experiment
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="appendix.html">
+   Appendix: Segregation of sludge bed
+  </a>
+ </li>
+</ul>
+
+    </div>
+</nav></div>
+        <div class="bd-sidebar__bottom">
+             <!-- To handle the deprecated key -->
+            
+            <div class="navbar_extra_footer">
+            Powered by <a href="https://jupyterbook.org">Jupyter Book</a>
+            </div>
+            
+        </div>
+    </div>
+    <div id="rtd-footer-container"></div>
+</div>
+
+
+          
+
+
+          
+<!-- A tiny helper pixel to detect if we've scrolled -->
+<div class="sbt-scroll-pixel-helper"></div>
+<!-- Main content -->
+<div class="col py-0 content-container">
+    
+    <div class="header-article row sticky-top noprint">
+        
+
+
+
+<div class="col py-1 d-flex header-article-main">
+    <div class="header-article__left">
+        
+        <label for="__navigation"
+  class="headerbtn"
+  data-toggle="tooltip"
+data-placement="right"
+title="Toggle navigation"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-bars"></i>
+  </span>
+
+</label>
+
+        
+    </div>
+    <div class="header-article__right">
+<button onclick="toggleFullScreen()"
+  class="headerbtn"
+  data-toggle="tooltip"
+data-placement="bottom"
+title="Fullscreen mode"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+<div class="menu-dropdown menu-dropdown-repository-buttons">
+  <button class="headerbtn menu-dropdown__trigger"
+      aria-label="Source repositories">
+      <i class="fab fa-github"></i>
+  </button>
+  <div class="menu-dropdown__content">
+    <ul>
+      <li>
+        <a href="https://github.com/edwardvd/edwardvd.github.io"
+   class="headerbtn"
+   data-toggle="tooltip"
+data-placement="left"
+title="Source repository"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fab fa-github"></i>
+  </span>
+<span class="headerbtn__text-container">repository</span>
+</a>
+
+      </li>
+      
+      <li>
+        <a href="https://github.com/edwardvd/edwardvd.github.io/issues/new?title=Issue%20on%20page%20%2Fchapter-2.html&body=Your%20issue%20content%20here."
+   class="headerbtn"
+   data-toggle="tooltip"
+data-placement="left"
+title="Open an issue"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-lightbulb"></i>
+  </span>
+<span class="headerbtn__text-container">open issue</span>
+</a>
+
+      </li>
+      
+    </ul>
+  </div>
+</div>
+
+<div class="menu-dropdown menu-dropdown-download-buttons">
+  <button class="headerbtn menu-dropdown__trigger"
+      aria-label="Download this page">
+      <i class="fas fa-download"></i>
+  </button>
+  <div class="menu-dropdown__content">
+    <ul>
+      <li>
+        <a href="_sources/chapter-2.md"
+   class="headerbtn"
+   data-toggle="tooltip"
+data-placement="left"
+title="Download source file"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="headerbtn__text-container">.md</span>
+</a>
+
+      </li>
+      
+      <li>
+        
+<button onclick="printPdf(this)"
+  class="headerbtn"
+  data-toggle="tooltip"
+data-placement="left"
+title="Print to PDF"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="headerbtn__text-container">.pdf</span>
+</button>
+
+      </li>
+      
+    </ul>
+  </div>
+</div>
+<label for="__page-toc"
+  class="headerbtn headerbtn-page-toc"
+  
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-list"></i>
+  </span>
+
+</label>
+
+    </div>
+</div>
+
+<!-- Table of contents -->
+<div class="col-md-3 bd-toc show noprint">
+    <div class="tocsection onthispage pt-5 pb-3">
+        <i class="fas fa-list"></i> Contents
+    </div>
+    <nav id="bd-toc-nav" aria-label="Page">
+        <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#abstract">
+   Abstract
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#introduction">
+   Introduction
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#materials-and-methods">
+   Materials and methods
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#description-of-the-plant">
+     Description of the plant
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#online-measurements">
+     Online measurements
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#sampling">
+     Sampling
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#physical-characteristics-of-the-sludge">
+     Physical characteristics of the sludge
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#microscopic-analysis">
+     Microscopic analysis
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#modelling-of-n-sub-2-sub-stripping">
+     Modelling of N
+     <sub>
+      2
+     </sub>
+     stripping
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#modelling-of-mixing-during-imperfect-plug-flow-feeding">
+     Modelling of mixing during imperfect plug flow feeding
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#results">
+   Results
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#reactor-operation">
+     Reactor operation
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#degasification-of-nitrogen-gas">
+     Degasification of nitrogen gas
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#stripping-of-nitrogen-gas">
+     Stripping of nitrogen gas
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#degasification-during-feeding">
+     Degasification during feeding
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#identification-of-suspended-solids-in-the-effluent">
+     Identification of suspended solids in the effluent
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#effect-of-the-vertical-baffle">
+     Effect of the vertical baffle
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#discussion">
+   Discussion
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#comparison-with-floc-systems">
+     Comparison with floc systems
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#effect-of-n-sub-2-sub-stripping">
+     Effect of N
+     <sub>
+      2
+     </sub>
+     stripping
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#effect-of-the-scum-baffle">
+     Effect of the scum baffle
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#conclusions">
+   Conclusions
+  </a>
+ </li>
+</ul>
+
+    </nav>
+</div>
+    </div>
+    <div class="article row">
+        <div class="col pl-md-3 pl-lg-5 content-container">
+            <!-- Table of contents that is only displayed when printing the page -->
+            <div id="jb-print-docs-body" class="onlyprint">
+                <h1>Effluent suspended solids</h1>
+                <!-- Table of contents -->
+                <div id="print-main-content">
+                    <div id="jb-print-toc">
+                        
+                        <div>
+                            <h2> Contents </h2>
+                        </div>
+                        <nav aria-label="Page">
+                            <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#abstract">
+   Abstract
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#introduction">
+   Introduction
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#materials-and-methods">
+   Materials and methods
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#description-of-the-plant">
+     Description of the plant
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#online-measurements">
+     Online measurements
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#sampling">
+     Sampling
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#physical-characteristics-of-the-sludge">
+     Physical characteristics of the sludge
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#microscopic-analysis">
+     Microscopic analysis
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#modelling-of-n-sub-2-sub-stripping">
+     Modelling of N
+     <sub>
+      2
+     </sub>
+     stripping
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#modelling-of-mixing-during-imperfect-plug-flow-feeding">
+     Modelling of mixing during imperfect plug flow feeding
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#results">
+   Results
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#reactor-operation">
+     Reactor operation
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#degasification-of-nitrogen-gas">
+     Degasification of nitrogen gas
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#stripping-of-nitrogen-gas">
+     Stripping of nitrogen gas
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#degasification-during-feeding">
+     Degasification during feeding
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#identification-of-suspended-solids-in-the-effluent">
+     Identification of suspended solids in the effluent
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#effect-of-the-vertical-baffle">
+     Effect of the vertical baffle
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#discussion">
+   Discussion
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#comparison-with-floc-systems">
+     Comparison with floc systems
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#effect-of-n-sub-2-sub-stripping">
+     Effect of N
+     <sub>
+      2
+     </sub>
+     stripping
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#effect-of-the-scum-baffle">
+     Effect of the scum baffle
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#conclusions">
+   Conclusions
+  </a>
+ </li>
+</ul>
+
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            <main id="main-content" role="main">
+                
+              <div>
+                
+  <section class="tex2jax_ignore mathjax_ignore" id="effluent-suspended-solids">
+<span id="ch-effluentsuspendedsolids"></span><h1>Effluent suspended solids<a class="headerlink" href="#effluent-suspended-solids" title="Permalink to this headline">#</a></h1>
+<p><em>Parts of this chapter have been published in Water Research <em>147</em>, 50-59 (2018) <span id="id1">[<a class="reference internal" href="references.html#id44" title="E. J. H. van Dijk, M. Pronk, and M. C. M. van Loosdrecht. Controlling effluent suspended solids in the aerobic granular sludge process. Water Res., 147:50–59, dec 2018. doi:10.1016/j.watres.2018.09.052.">van Dijk <em>et al.</em>, 2018</a>]</span>.</em></p>
+<section id="abstract">
+<h2>Abstract<a class="headerlink" href="#abstract" title="Permalink to this headline">#</a></h2>
+<p>The main processes contributing to elevated effluent suspended solids in the full-scale aerobic granular sludge process were studied. The two most important processes were (1) rising of sludge due to degasification of nitrogen gas (produced by denitrification) and (2) wash-out of particles that intrinsically do not settle such as certain fats and foams. A mathematical model was made to describe the process of degasification of nitrogen gas during the feeding phase in an AGS reactor. The process of rising sludge due to degasification could be limited by stripping out the nitrogen gas before starting the settling phase in the process cycle. The wash-out of scum particles could be reduced by introducing a vertical scum baffle in front of the effluent weir, similar to weirs in traditional clarifiers. The <a class="reference internal" href="glossary.html#term-PNU"><span class="xref std std-term">PNU</span></a> was operated with a nitrogen stripping phase and scum baffles for 9 months at an average biomass concentration of 10 g L<sup>-1</sup> and an average granulation grade of 84 %. In this period the influent suspended solids concentration was 230 ± 118 mg L<sup>-1</sup>, while the concentration of effluent suspended solids was 7.8 ± 3.8 mg L<sup>-1</sup>.</p>
+</section>
+<section id="introduction">
+<h2>Introduction<a class="headerlink" href="#introduction" title="Permalink to this headline">#</a></h2>
+<figure class="align-default" id="fig-graphical-abstract-ch2">
+<img alt="_images/degasification_abstract.svg" src="_images/degasification_abstract.svg" /><figcaption>
+<p><span class="caption-number">Fig. 5 </span><span class="caption-text">Graphical abstract.</span><a class="headerlink" href="#fig-graphical-abstract-ch2" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
+<p>If we look at the effluent quality of full-scale <a class="reference internal" href="glossary.html#term-AGS"><span class="xref std std-term">AGS</span></a> reactors reported in literature, low effluent values for COD, total nitrogen and total phosphorus can be easily met, but average suspended solids effluent concentrations are relatively high with a range of 5 - 20 mg L<sup>-1</sup> (see <a class="reference internal" href="#tab-reportedsuspendedsolids"><span class="std std-numref">Table 2</span></a>).</p>
+<aside class="margin sidebar">
+<p class="sidebar-title"></p>
+<p><sup>1</sup>: summer/winter<BR/>
+<sup>2</sup>: <span id="id2">[<a class="reference internal" href="references.html#id46" title="H. F. van der Roest, L. M. M. de Bruin, G. Gademan, and F. Coelho. Towards sustainable waste water treatment with Dutch Nereda® technology. Water Pract. Technol., 6(3):1–2, 2011. doi:10.2166/wpt.2011.059.">van der Roest <em>et al.</em>, 2011</a>]</span><BR/>
+<sup>3</sup>: <span id="id3">[<a class="reference internal" href="references.html#id15" title="A. Giesen, L. M. M. de Bruin, R. P. Niermans, and H. F. van der Roest. Advancements in the application of aerobic granular biomass technology for sustainable treatment of wastewater. Water Pract. Technol., 8(1):47–54, 2013. doi:10.2166/wpt.2013.007.">Giesen <em>et al.</em>, 2013</a>]</span><BR/>
+<sup>4</sup>: <span id="id4">[<a class="reference internal" href="references.html#id32" title="M. Pronk, M. K. de Kreuk, L. M. M. de Bruin, P. Kamminga, R. Kleerebezem, and M. C. M. van Loosdrecht. Full scale performance of the aerobic granular sludge process for sewage treatment. Water Res., 84:207–217, nov 2015. doi:10.1016/j.watres.2015.07.011.">Pronk <em>et al.</em>, 2015</a>]</span><BR/>
+<sup>5</sup>: <span id="id5">[<a class="reference internal" href="references.html#id36" title="A. Giesen, M. C. M. van Loosdrecht, M. Pronk, S. Robertson, and A. Thompson. Aerobic granular biomass technology: Recent performance data, lessons learnt and retrofitting conventional treatment infrastructure. Volume 3. Water Environment Federation, 2016. ISBN 9781510870475. doi:10.2175/193864716819707139.">Giesen <em>et al.</em>, 2016</a>]</span></p>
+</aside>
+<table class="colwidths-auto table" id="tab-reportedsuspendedsolids">
+<caption><span class="caption-number">Table 2 </span><span class="caption-text">Reported effluent concentrations for different Nereda<sup>®</sup> plants.</span><a class="headerlink" href="#tab-reportedsuspendedsolids" title="Permalink to this table">#</a></caption>
+<thead>
+<tr class="row-odd"><th class="head"><p>Plant</p></th>
+<th class="head"><p>COD</p></th>
+<th class="head"><p>N<sub>tot</sub>-N</p></th>
+<th class="head"><p>NH<sub>4</sub>-N</p></th>
+<th class="head"><p>NO<sub>3</sub>-N</p></th>
+<th class="head"><p>P<sub>tot</sub>-P</p></th>
+<th class="head"><p>PO<sub>4</sub>-P</p></th>
+<th class="head"><p>SS</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p></p></td>
+<td><p>mg L<sup>-1</sup></p></td>
+<td><p>mg L<sup>-1</sup></p></td>
+<td><p>mg L<sup>-1</sup></p></td>
+<td><p>mg L<sup>-1</sup></p></td>
+<td><p>mg L<sup>-1</sup></p></td>
+<td><p>mg L<sup>-1</sup></p></td>
+<td><p>mg L<sup>-1</sup></p></td>
+</tr>
+<tr class="row-odd"><td><p>Epe<sup>2</sup></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>0.5</p></td>
+<td><p>4</p></td>
+<td><p></p></td>
+<td><p>0.5</p></td>
+<td><p>10-20</p></td>
+</tr>
+<tr class="row-even"><td><p>Dinxperlo<sup>2</sup></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>0.2</p></td>
+<td><p>5</p></td>
+<td><p></p></td>
+<td><p>2</p></td>
+<td><p>15-20</p></td>
+</tr>
+<tr class="row-odd"><td><p>Gansbaai<sup>3</sup></p></td>
+<td><p>40</p></td>
+<td><p>&lt;10</p></td>
+<td><p>&lt;1</p></td>
+<td><p></p></td>
+<td><p>3.2</p></td>
+<td><p></p></td>
+<td><p><span class="math notranslate nohighlight">\(&lt;\)</span>5</p></td>
+</tr>
+<tr class="row-even"><td><p>Garmerwolde<sup>4</sup></p></td>
+<td><p>64</p></td>
+<td><p>6.9</p></td>
+<td><p>1.1</p></td>
+<td><p></p></td>
+<td><p>0.9</p></td>
+<td><p>0.4</p></td>
+<td><p>20</p></td>
+</tr>
+<tr class="row-odd"><td><p>Ryki<sup>5</sup></p></td>
+<td><p>45</p></td>
+<td><p>5.60</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>0.85</p></td>
+<td><p></p></td>
+<td><p>13</p></td>
+</tr>
+<tr class="row-even"><td><p>Vroomshoop<sup>5</sup></p></td>
+<td><p>55</p></td>
+<td><p>7.2</p></td>
+<td><p>1.4/3.0<sup>1<sup></p></td>
+<td><p>2.0</p></td>
+<td><p>0.9</p></td>
+<td><p>0.6</p></td>
+<td><p>10</p></td>
+</tr>
+</tbody>
+</table>
+<p>Some reports indicate an increase in effluent suspended solids concentrations for AGS reactors  with increasing granulation <span id="id6">[<a class="reference internal" href="references.html#id31" title="Z. H. Li, T. Kuba, T. Kusuda, and X. C. Wang. A comparative study on aerobic granular sludge and effluent suspended solids in a sequence batch reactor. Environ. Eng. Sci., 25(4):577–584, 2008. doi:10.1089/ees.2007.0091.">Li <em>et al.</em>, 2008</a>, <a class="reference internal" href="references.html#id42" title="T. Rocktäschel, C. Klarmann, J. Ochoa, P. Boisson, K. Sørensen, and H. Horn. Influence of the granulation grade on the concentration of suspended solids in the effluent of a pilot scale sequencing batch reactor operated with aerobic granular sludge. Sep. Purif. Technol., 142:234–241, 2015. doi:10.1016/j.seppur.2015.01.013.">Rocktäschel <em>et al.</em>, 2015</a>]</span>. In most laboratory studies the focus is on the granulation process and wasting of sludge for ease of operation is combined with decanting of the effluent <span id="id7">[<a class="reference internal" href="references.html#id20" title="M. K. de Kreuk, M. Pronk, and M. C. M. van Loosdrecht. Formation of aerobic granules and conversion processes in an aerobic granular sludge reactor at moderate and low temperatures. Water Res., 39(18):4476–4484, 2005. doi:10.1016/j.watres.2005.08.031.">de Kreuk <em>et al.</em>, 2005</a>]</span>. As a result, biomass is present in the effluent of laboratory reactors. This poses no problem under laboratory conditions, but for the full-scale treatment of sewage the removal of suspended solids is an integral part of the purification process and is usually limited by law. Since hydraulics of laboratory and even pilot plant installations are not representative for full-scale conditions, effluent suspended solids can only effectively be studied at full-scale installations. In full-scale applications the effluent and sludge withdrawal are separated processes. This leads to relatively low suspended solids effluent concentrations, certainly when compared to influent values  <span id="id8">[<a class="reference internal" href="references.html#id32" title="M. Pronk, M. K. de Kreuk, L. M. M. de Bruin, P. Kamminga, R. Kleerebezem, and M. C. M. van Loosdrecht. Full scale performance of the aerobic granular sludge process for sewage treatment. Water Res., 84:207–217, nov 2015. doi:10.1016/j.watres.2015.07.011.">Pronk <em>et al.</em>, 2015</a>]</span>. Still,  the reported average values of 5 - 30 mg L<sup>-1</sup> are higher than usually reported for conventional activated sludge processes, which can be considerably lower than 10 mg L<sup>-1</sup> <span id="id9">[<a class="reference internal" href="references.html#id37" title="D. S. Parker, D. J. Kinnear, and E. J. Wahlberg. Review of Folklore in Design and Operation of Secondary Clarifiers. J. Environ. Eng., 127(6):476–484, 2001. doi:10.1061/(ASCE)0733-9372(2001)127:6(476).">Parker <em>et al.</em>, 2001</a>]</span>.</p>
+<p>Elevated levels of effluent suspended solids have been intensively studied over the last decades in conventional activated sludge systems. Commonly reported issues in these systems are bulking sludge and foam formation <span id="id10">[<a class="reference internal" href="references.html#id38" title="D. Jenkins. Towards a comprehensive model of activated sludge bulking and foaming. Water Sci. Technol., 25(6):215–230, 1992. doi:0273-12231/92.">Jenkins, 1992</a>]</span>. Another reported issue in secondary clarifiers is the rising of sludge due to denitrification <span id="id11">[<a class="reference internal" href="references.html#id33" title="M. Henze, R. Dupont, P. Grau, and A. de la Sota. Rising sludge in secondary settlers due to denitrification. Water Res., 27(2):231–236, feb 1993. doi:10.1016/0043-1354(93)90080-2.">Henze <em>et al.</em>, 1993</a>]</span>. Denitrification can lead to nitrogen bubble formation (degasification) if over-saturation of nitrogen gas in the liquid is reached. The bubbles attach to the sludge flocs which then rise towards the top of the clarifier and wash out with the effluent.</p>
+<p>Sludge settling too fast, indicated by a low sludge volume index (SVI), is also reported to cause elevated levels of suspended solids in the effluent of conventional activated sludge systems, although this effect is doubted by others reporting a strong relation with the flocculator design <span id="id12">[<a class="reference internal" href="references.html#id34" title="D. S. Parker, R. Butler, R. Finger, R. Fisher, W. Fox, W. Kido, S. Merrill, G. Newman, R. Pope, J. Slapper, and E. Wahlberg. Design and operations experience with flocculator-clarifiers in large plants. Water Sci. Technol., 33(12):163–170, jan 1996. doi:10.1016/0273-1223(96)00470-2.">Parker <em>et al.</em>, 1996</a>, <a class="reference internal" href="references.html#id37" title="D. S. Parker, D. J. Kinnear, and E. J. Wahlberg. Review of Folklore in Design and Operation of Secondary Clarifiers. J. Environ. Eng., 127(6):476–484, 2001. doi:10.1061/(ASCE)0733-9372(2001)127:6(476).">Parker <em>et al.</em>, 2001</a>, <a class="reference internal" href="references.html#id29" title="Z.C. Vitasovic, S. Zhou, J.A. McCorquodale, and K. Lingren. Secondary clarifier analysis using data from the Clarifier Research Technical Committee protocol. Water Environ. Res., 69(5):999–1007, 1997. doi:10.2175/106143097X125696.">Vitasovic <em>et al.</em>, 1997</a>]</span>. Since reported SVI values for full-scale AGS reactors are generally low (35 - 70 mL g<sup>-1</sup>) <span id="id13">[<a class="reference internal" href="references.html#id32" title="M. Pronk, M. K. de Kreuk, L. M. M. de Bruin, P. Kamminga, R. Kleerebezem, and M. C. M. van Loosdrecht. Full scale performance of the aerobic granular sludge process for sewage treatment. Water Res., 84:207–217, nov 2015. doi:10.1016/j.watres.2015.07.011.">Pronk <em>et al.</em>, 2015</a>, <a class="reference internal" href="references.html#id46" title="H. F. van der Roest, L. M. M. de Bruin, G. Gademan, and F. Coelho. Towards sustainable waste water treatment with Dutch Nereda® technology. Water Pract. Technol., 6(3):1–2, 2011. doi:10.2166/wpt.2011.059.">van der Roest <em>et al.</em>, 2011</a>]</span> this might also be a potential cause of elevated levels of effluent suspended solids.</p>
+<p>Besides a different sludge morphology and likely flocculation behaviour, current AGS plants according to the Nereda<sup>®</sup> concept deviate also in hydraulics from secondary settling tanks. Secondary clarifiers have typical superficial upflow velocities of 0.5 - 1.0 m h<sup>-1</sup>, while the complex flow in the clarifier is mainly caused by density currents <span id="id14">[<a class="reference internal" href="references.html#id30" title="S. Zhou, J. A. McCorquodale, and Z. Vitasovic. Influences of Density on Circular Clarifiers with Baffles. J. Environ. Eng., 118(6):829–847, 1992. doi:10.1061/(ASCE)0733-9372(1992)118:6(829).">Zhou <em>et al.</em>, 1992</a>]</span>. For the Nereda<sup>®</sup> technology effluent results from pumping influent in the bottom of the granular bed. This generates an upward plug flow in the reactor with typical superficial velocities in the range of 2 - 5 m h<sup>-1</sup> through a granular bed with on top of that a layer of flocculent sludge. The relatively higher upflow velocities in Nereda<sup>®</sup> reactors might be responsible for the washout of floating sludge and fat-like particles. In contrast to conventional activated sludge systems, the mechanisms behind the formation and control of effluent suspended solids for full-scale aerobic granular sludge reactors are not yet fully understood.</p>
+<p>The aim of this study was to evaluate the main processes leading to effluent suspended solids in full-scale AGS reactors, and investigate options to minimize effluent suspended solids. We focused on both removal of floating material and degasification of nitrogen gas. Full-scale experiments were performed in the <a class="reference internal" href="glossary.html#term-PNU"><span class="xref std std-term">PNU</span></a> and a mathematical model was developed to describe the degasification of nitrogen gas during the operation of the aerobic granular sludge reactor.</p>
+</section>
+<section id="materials-and-methods">
+<h2>Materials and methods<a class="headerlink" href="#materials-and-methods" title="Permalink to this headline">#</a></h2>
+<section id="description-of-the-plant">
+<h3>Description of the plant<a class="headerlink" href="#description-of-the-plant" title="Permalink to this headline">#</a></h3>
+<p>Experiments were done in the \glsdesc{pnu}. The reactor has a footprint of 150 m<sup>2</sup> and a water depth of 7.00 m. The influent pumps have a total capacity of 900 m<sup>3</sup> h<sup>-1</sup>.  The influent is pumped directly from a main sewer line of the Overvecht district in Utrecht. The sewage consists mainly of domestic wastewater. Wastewater characteristics during this study are given in <a class="reference internal" href="#tab-influent"><span class="std std-numref">Table 3</span></a>. After screening by a 6 mm perforated plate screen, the wastewater is directly pumped into the reactor. During the trial the reactor was operated at a MLSS concentration of 8 - 12 kg m<sup>-3</sup>, a SVI5 of 34 - 57 mL g<sup>-1</sup> , a SVI30 of 33 - 43 mL g<sup>-1</sup>, a volumetric loading rate of 0.6 - 2.7 m<sup>3</sup> m<sup>-3</sup> d<sup>-1</sup> and an average sludge loading rate of 0.08 kg<sub>COD</sub> kg<sub>MLSS</sub> d<sup>-1</sup>. On average 84 % of the biomass present in the reactor was granulated during the experimental period (i.e. granule size larger than 0.2 mm). Average granule size distributions are shown in <a class="reference internal" href="#tab-granules"><span class="std std-numref">Table 4</span></a>. The reactor is equipped with two blowers each with a capacity of 400 m<sup>3</sup> h<sup>-1</sup>. Air is supplied to the reactor using micro bubble diffusors evenly distributed on the floor of the tank.</p>
+<table class="colwidths-auto table" id="tab-influent">
+<caption><span class="caption-number">Table 3 </span><span class="caption-text">Influent characteristics of the PNU during the study.</span><a class="headerlink" href="#tab-influent" title="Permalink to this table">#</a></caption>
+<thead>
+<tr class="row-odd"><th class="head"><p></p></th>
+<th class="head"><p>Average</p></th>
+<th class="head"><p>Min</p></th>
+<th class="head"><p>Max</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Parameter</p></td>
+<td><p>mg L<sup>-1</sup></p></td>
+<td><p>mg L<sup>-1</sup></p></td>
+<td><p>mg L<sup>-1</sup></p></td>
+</tr>
+<tr class="row-odd"><td><p>COD</p></td>
+<td><p>707.0</p></td>
+<td><p>442.4</p></td>
+<td><p>1007.5</p></td>
+</tr>
+<tr class="row-even"><td><p>N<sub>Kj</sub></p></td>
+<td><p>64.0</p></td>
+<td><p>35.0</p></td>
+<td><p>81.7</p></td>
+</tr>
+<tr class="row-odd"><td><p>NH<sub>4</sub>-N</p></td>
+<td><p>46.1</p></td>
+<td><p>25.1</p></td>
+<td><p>58.6</p></td>
+</tr>
+<tr class="row-even"><td><p>P<sub>tot</sub>-P</p></td>
+<td><p>8.9</p></td>
+<td><p>5.3</p></td>
+<td><p>11.8</p></td>
+</tr>
+<tr class="row-odd"><td><p>PO<sub>4</sub>-P</p></td>
+<td><p>5.6</p></td>
+<td><p>3.2</p></td>
+<td><p>8.2</p></td>
+</tr>
+<tr class="row-even"><td><p>SS</p></td>
+<td><p>230.0</p></td>
+<td><p>160.0</p></td>
+<td><p>380.0</p></td>
+</tr>
+</tbody>
+</table>
+<p>The reactor was operated with a normal Nereda<sup>®</sup> cycle as described in section <a class="reference internal" href="chapter-1.html#sec-nereda-technology"><span class="std std-ref">Nereda technology</span></a>. Process conditions were set to target full biological nitrogen and phosphorus removal. No possibilities for chemical dosing were present in the reactor. During the trial nitrogen removal was established by nitrification and denitrification.</p>
+<p>The cycle time varied between 4 and 8 hours, with 1 hour of anaerobic feeding and simultaneous effluent withdrawal, a variable reaction phase and a phase for mixing, settling and decanting of sludge of 30 to 60 minutes.</p>
+<p>The reaction phase was stopped when the set points, 2 mg L<sup>-1</sup> and 3 mg L<sup>-1</sup> for respectively ammonia and nitrate were reached. During the reaction phase the dissolved oxygen concentration was controlled in the range of
+1.0 - 2.0 mg L<sup>-1</sup>.</p>
+<p>The plant is in operation since the 1<sup>st</sup> of April 2013.  The reactor was started up without baffles in front of the overflow weir. On the 3rd of June 2015 vertical baffles were placed in front of the effluent weirs, to investigate the effect of scum baffles on the concentration of effluent suspended solids.</p>
+</section>
+<section id="online-measurements">
+<h3>Online measurements<a class="headerlink" href="#online-measurements" title="Permalink to this headline">#</a></h3>
+<p>The reactor was equipped with probes for dissolved oxygen, redox potential, water level, temperature, turbidity, and nitrate. Ammonium and phosphate were continuously measured using a filter unit and auto sampling device (Hach Lange; Filtrax, Amtax and Phosphax). The filter unit was situated 0.5 meter below the water surface. Sampling was done at an interval of 5 minutes. A turbidity sensor (Hach Lange; Solitax) was present in the effluent gutter to observe the presence of suspended solids.</p>
+</section>
+<section id="sampling">
+<h3>Sampling<a class="headerlink" href="#sampling" title="Permalink to this headline">#</a></h3>
+<p>Samples for analyses of influent and effluent were collected using refrigerated auto samplers, collecting flow proportional samples for both influent and effluent. Suspended solids concentrations of both influent and effluent were measured by filtering 1 L of sample with a glass fiber filter, which was dried at 105 °C until no weight change was measured.</p>
+<p>Grab samples for <a class="reference internal" href="glossary.html#term-MLSS"><span class="xref std std-term">MLSS</span></a> analyses were taken from the top of the reactor after at least 15 minutes of aeration at full capacity to ensure sufficiently mixed conditions.</p>
+</section>
+<section id="physical-characteristics-of-the-sludge">
+<h3>Physical characteristics of the sludge<a class="headerlink" href="#physical-characteristics-of-the-sludge" title="Permalink to this headline">#</a></h3>
+<p>To determine the granule size distribution 1 L of sample was poured over a series of sieves with different mesh sizes (200 µm, 400 µm, 630 µm, 1000 µm and 2000 µm). These sieve fractions together with 100 mm of unsieved sludge were dried at 105 °C. The sludge volume index (SVI) was measured by pouring 1000 mm of mixed, undiluted sludge into a graduated measuring cylinder. The sludge volumes were measured after 5 and 30 minutes.</p>
+<table class="colwidths-auto table" id="tab-granules">
+<caption><span class="caption-number">Table 4 </span><span class="caption-text">Average granule size distribution of the sludge in the Prototype Nereda Utrecht.</span><a class="headerlink" href="#tab-granules" title="Permalink to this table">#</a></caption>
+<thead>
+<tr class="row-odd"><th class="head"><p>sieve fraction</p></th>
+<th class="head"><p>MLSS</p></th>
+<th class="head"><p>granule fraction</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p> µm</p></td>
+<td><p>kg m<sup>-3</sup></p></td>
+<td><p> %</p></td>
+</tr>
+<tr class="row-odd"><td><p>0 - 200</p></td>
+<td><p>1.7</p></td>
+<td><p>16 %</p></td>
+</tr>
+<tr class="row-even"><td><p>200 - 400</p></td>
+<td><p>0.3</p></td>
+<td><p>3 %</p></td>
+</tr>
+<tr class="row-odd"><td><p>400 - 600</p></td>
+<td><p>0.2</p></td>
+<td><p>2 %</p></td>
+</tr>
+<tr class="row-even"><td><p>600 - 1000</p></td>
+<td><p>0.4</p></td>
+<td><p>4 %</p></td>
+</tr>
+<tr class="row-odd"><td><p>1000 - 2000</p></td>
+<td><p>3.2</p></td>
+<td><p>31 %</p></td>
+</tr>
+<tr class="row-even"><td><p>&gt;2000</p></td>
+<td><p>4.6</p></td>
+<td><p>44 %</p></td>
+</tr>
+<tr class="row-odd"><td><p>Total</p></td>
+<td><p>10.4</p></td>
+<td><p>100 %</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="microscopic-analysis">
+<h3>Microscopic analysis<a class="headerlink" href="#microscopic-analysis" title="Permalink to this headline">#</a></h3>
+<p>A Leica Microsystems Ltd stereo zoom microscope (M205 FA) in combination with Leica Microsystems Qwin (V3.5.1) image analysis software was used to analyse the morphology of the sludge.</p>
+</section>
+<section id="modelling-of-n-sub-2-sub-stripping">
+<h3>Modelling of N<sub>2</sub> stripping<a class="headerlink" href="#modelling-of-n-sub-2-sub-stripping" title="Permalink to this headline">#</a></h3>
+<p>A mathematical model was developed to calculate the concentrations of dissolved nitrogen gas in the reactor. The solubility of nitrogen gas in water, <span class="math notranslate nohighlight">\(c_s\)</span>, is dependent on the partial pressure of nitrogen gas in the gas phase, <span class="math notranslate nohighlight">\(p\)</span>, and is calculated using Henry’s law:</p>
+<div class="math notranslate nohighlight" id="equation-eq-henry">
+<span class="eqno">(1)<a class="headerlink" href="#equation-eq-henry" title="Permalink to this equation">#</a></span>\[{c_s} = M \cdot {k_H} \cdot p\]</div>
+<p>Here <span class="math notranslate nohighlight">\(k_H\)</span> is the Henry’s constant for the solubility of nitrogen gas in water and <span class="math notranslate nohighlight">\(M\)</span> is the molar mass of nitrogen gas. The Henry’s constant is a decreasing function of temperature, meaning that the solubility of nitrogen gas in water decreases with an increasing temperature. The partial pressure of nitrogen in the gas phase is both dependent on the gas fraction, <span class="math notranslate nohighlight">\(f\)</span>, and the pressure in the reactor, the latter being the sum of atmospheric pressure, <span class="math notranslate nohighlight">\(p_{atm}\)</span> and hydrostatic pressure:</p>
+<div class="math notranslate nohighlight" id="equation-eq-pressure">
+<span class="eqno">(2)<a class="headerlink" href="#equation-eq-pressure" title="Permalink to this equation">#</a></span>\[	p=f \cdot \left( p_{atm} + x \cdot \rho \cdot g \right)\]</div>
+<p>Here <span class="math notranslate nohighlight">\(x\)</span> is the water depth, <span class="math notranslate nohighlight">\(\rho\)</span> is the mixture density and <span class="math notranslate nohighlight">\(g\)</span> is the gravitational acceleration.</p>
+<p>The transfer of nitrogen gas between the air bubbles and the liquid is calculated by:</p>
+<div class="math notranslate nohighlight" id="equation-eq-gastransfer">
+<span class="eqno">(3)<a class="headerlink" href="#equation-eq-gastransfer" title="Permalink to this equation">#</a></span>\[	\frac{d c}{d t}=\alpha F \cdot {\left(k_L a\right)_N} \cdot \left( c_s - c \right)\]</div>
+<p>Here <span class="math notranslate nohighlight">\(c\)</span> is the nitrogen gas concentration in the water phase, <span class="math notranslate nohighlight">\(k_L\)</span> is the mass transfer coefficient and <span class="math notranslate nohighlight">\(a\)</span> is the interfacial area of the gas bubbles. The subscripts <span class="math notranslate nohighlight">\(O\)</span> and <span class="math notranslate nohighlight">\(N\)</span> indicate the values for oxygen gas and nitrogen gas. The mass transfer rate is corrected for effects of wastewater contaminants, <span class="math notranslate nohighlight">\(\alpha\)</span>, and fouling on the membrane aerators, <span class="math notranslate nohighlight">\(F\)</span>.
+The value of the product of <span class="math notranslate nohighlight">\(k_L\)</span> and  <span class="math notranslate nohighlight">\(a\)</span> for oxygen transfer <span class="math notranslate nohighlight">\({\left(k_L a\right)_O}\)</span>, is commonly measured during commissioning in full-scale wastewater treatment plants and depends on the temperature. For this study, a value of <span class="math notranslate nohighlight">\({\left(k_L a\right)_O}\)</span> including the effects of contaminants and fouling was used. For this, the values for <span class="math notranslate nohighlight">\(\alpha\)</span> and <span class="math notranslate nohighlight">\(F\)</span> were set to 1.</p>
+<p>This empirical value of <span class="math notranslate nohighlight">\({\left(k_L a\right)_O}\)</span> can be used to derive a value for nitrogen gas by using Higbie’s penetration theory <span id="id15">[<a class="reference internal" href="references.html#id39" title="R. Higbie. The rate of absorption of a pure gas into still liquid during short periods of exposure. Inst. Chem. Eng., 35(2):36–60, 1935.">Higbie, 1935</a>]</span>. Based on this model the following relation between the <span class="math notranslate nohighlight">\(k_La\)</span> for oxygen gas and nitrogen gas and the diffusion coefficient for oxygen gas (<span class="math notranslate nohighlight">\(D_O\)</span>) and nitrogen gas (<span class="math notranslate nohighlight">\(D_N\)</span>) for can be derived:</p>
+<div class="math notranslate nohighlight" id="equation-eq-convertkla">
+<span class="eqno">(4)<a class="headerlink" href="#equation-eq-convertkla" title="Permalink to this equation">#</a></span>\[	\frac{\left( k_L a \right)_O}{\left(k_L a\right)_N} =\sqrt{\frac{D_O}{D_N} }\]</div>
+<p>Both the diffusion coefficient and the Henry coefficient need to be corrected for temperature. For the diffusion coefficient this is based on the Stokes-Einstein equation <span id="id16">[<a class="reference internal" href="references.html#id27" title="A. Einstein. Über die von der molekularkinetischen Theorie der Wärme geforderte Bewegung von in ruhenden Flüssigkeiten suspendierten Teilchen. Ann. Phys., 322(8):549–560, jan 1905. doi:10.1002/ANDP.19053220806.">Einstein, 1905</a>]</span>. In this equation the diffusion coefficient <span class="math notranslate nohighlight">\(D\)</span> is related to the temperature <span class="math notranslate nohighlight">\(T\)</span> and the dynamic viscosity <span class="math notranslate nohighlight">\(\mu_T\)</span>:</p>
+<div class="math notranslate nohighlight" id="equation-eq-stokeseinstein">
+<span class="eqno">(5)<a class="headerlink" href="#equation-eq-stokeseinstein" title="Permalink to this equation">#</a></span>\[	D(T) = D_0 \frac{T}{T_0} \frac{\mu _{0}}{\mu _{T}}\]</div>
+<p>The viscosity is also depending on temperature according to equation the Vogel-Fulcher-Tammann equation <span id="id17">[<a class="reference internal" href="references.html#id35" title="L. Dagdug. A theoretical framework for the Vogel-Fulcher-Tammann equation for covalent network glasses derived by the stochastic matrix method. J. Phys. Condens. Matter, 12(46):9573–9589, 2000. doi:10.1088/0953-8984/12/46/305.">Dagdug, 2000</a>]</span>, in which parameters A, B and C are empirical parameters:</p>
+<div class="math notranslate nohighlight" id="equation-eq-vogelfulchertammann">
+<span class="eqno">(6)<a class="headerlink" href="#equation-eq-vogelfulchertammann" title="Permalink to this equation">#</a></span>\[	\mu(T) = \mathrm{e}^{A+\frac{B}{C+T}}\]</div>
+<p>The Henry coefficient is corrected for temperature using the van ‘t Hoff equation <span id="id18">[<a class="reference internal" href="references.html#id43" title="M. J. H. van't Hoff. Etudes de dynamique chimique. Volume 3. F. Muller &amp; Co., Amsterdam, 1884. doi:10.1002/recl.18840031003.">van't Hoff, 1884</a>]</span>, in which <span class="math notranslate nohighlight">\(k_{H0}\)</span> is the Henry coefficient at reference temperature, <span class="math notranslate nohighlight">\(T_0\)</span> is the reference temperature and <span class="math notranslate nohighlight">\(H_c\)</span> is the temperature correction factor:</p>
+<div class="math notranslate nohighlight" id="equation-eq-vanthoff">
+<span class="eqno">(7)<a class="headerlink" href="#equation-eq-vanthoff" title="Permalink to this equation">#</a></span>\[	k_H\left(T\right) = k_{H0} \mathrm{e}^{-k_{Hc} (\frac{1}{T} - \frac{1}{T_0}) }\]</div>
+<p>The stripping of nitrogen gas is done by aeration of the reactor with fine bubble aeration. This leads to transport of dissolved nitrogen gas through the reactor. A simple axial dispersion model can be used to describe the liquid backmixing of dissolved nitrogen gas in the reactor <span id="id19">[<a class="reference internal" href="references.html#id28" title="S. Degaleesan and M. P. Dudukovic. Liquid backmixing in bubble columns and the axial dispersion coefficient. AIChE J., 44(11):2369–2378, 1998. doi:10.1002/aic.690441105.">Degaleesan and Dudukovic, 1998</a>]</span>, in which <span class="math notranslate nohighlight">\(x\)</span> is the water depth.</p>
+<div class="math notranslate nohighlight" id="equation-eq-liquidbackmixing">
+<span class="eqno">(8)<a class="headerlink" href="#equation-eq-liquidbackmixing" title="Permalink to this equation">#</a></span>\[	\frac{d c}{d t} = D_{ax,1} \frac{d^2 c}{d x^2}\]</div>
+<p>The axial dispersion coefficient, <span class="math notranslate nohighlight">\(D_{ax,1}\)</span>, is a lumped coefficient, containing the effect of both turbulent dispersion and global convective recirculation in the reactor. Molecular diffusion in this case is neglected due to an expected limited impact. A tracer experiment with ammonium was used to determine the value of <span class="math notranslate nohighlight">\(D_{ax,1}\)</span>.</p>
+<p>To describe the transfer of nitrogen gas between the air bubbles and the water phase, equation <a class="reference internal" href="#equation-eq-convertkla">(4)</a> is substituted in equation <a class="reference internal" href="#equation-eq-gastransfer">(3)</a>. If this equation is combined with the transport of nitrogen gas in the water phase according equation <a class="reference internal" href="#equation-eq-liquidbackmixing">(8)</a> a description for the stripping of nitrogen in a 1D bubble column is constructed:</p>
+<div class="math notranslate nohighlight" id="equation-eq-strippingofnitrogengas">
+<span class="eqno">(9)<a class="headerlink" href="#equation-eq-strippingofnitrogengas" title="Permalink to this equation">#</a></span>\[	\frac{d c}{d t} = D_{ax,1} \frac{d^2 c}{d x^2} + \alpha F \cdot \left( k_L a \right)_O  \sqrt{\frac{D_N}{D_O} }  \cdot \left( c_s(x) - c \right)\]</div>
+<p>The saturation concentration for nitrogen gas according to equation <a class="reference internal" href="#equation-eq-henry">(1)</a> can be combined with the actual concentration to calculate the nitrogen gas deficit in the bulk liquid, <span class="math notranslate nohighlight">\(c_{d}\)</span>.</p>
+<div class="math notranslate nohighlight" id="equation-eq-buffercapacity">
+<span class="eqno">(10)<a class="headerlink" href="#equation-eq-buffercapacity" title="Permalink to this equation">#</a></span>\[	c_{d}= c_s-c\]</div>
+<p>When over-saturation occurs during aeration (i.e. the actual concentration <span class="math notranslate nohighlight">\(c\)</span> is higher than <span class="math notranslate nohighlight">\(c_s\)</span> at ambient pressure and temperature), it is assumed that N<sub>2</sub> gas bubbles are formed immediately and efficiently stripped out of the bulk liquid. This is modelled by artificially increasing the local <span class="math notranslate nohighlight">\(k_La\)</span> with an order of magnitude.</p>
+</section>
+<section id="modelling-of-mixing-during-imperfect-plug-flow-feeding">
+<h3>Modelling of mixing during imperfect plug flow feeding<a class="headerlink" href="#modelling-of-mixing-during-imperfect-plug-flow-feeding" title="Permalink to this headline">#</a></h3>
+<p>During feeding the bulk liquid in the reactor is pushed up towards the top of the reactor where the overflow weirs are situated.  To describe the transport of nitrogen gas during feeding, the same axial dispersion model of equation <a class="reference internal" href="#equation-eq-liquidbackmixing">(8)</a> is used with a different value for <span class="math notranslate nohighlight">\(D_{ax}\)</span>. Also an additional term is added to describe the transport of nitrogen gas through convection. Here, <span class="math notranslate nohighlight">\(v\)</span> is the upflow velocity of the liquid in the reactor. The value of <span class="math notranslate nohighlight">\(D_{ax,2}\)</span> was experimentally established by measuring a step response curve with ammonium as a tracer.</p>
+<div class="math notranslate nohighlight" id="equation-eq-plugflow">
+<span class="eqno">(11)<a class="headerlink" href="#equation-eq-plugflow" title="Permalink to this equation">#</a></span>\[	\frac{d c}{d t} = D_{ax,2} \frac{d^2 c}{d x^2} + v \frac{d c} {d x}\]</div>
+<p>The influent is fed from the bottom of the reactor. It is assumed that the influent concentration of dissolved nitrogen is equal to the equilibrium concentration of nitrogen gas at atmospheric pressure. During the feeding phase denitrification can take place. The denitrification rate depends on many parameters, but in this case a lumped specific denitrification rate, <span class="math notranslate nohighlight">\(q\)</span>, is used. The specific denitrification rate was measured in the reactor in the days before the experiment, by measuring the decrease of the nitrate concentration during an anoxic phase in the cycle. This rate is multiplied by the biomass concentration, <span class="math notranslate nohighlight">\(c_X\)</span>, which is a function of the reactor depth.  The sludge bed is assumed to be in steady state and thus invariable in time. In the simulations it was assumed that the sludge bed occupies the lower 4 meters of the reactor and that the sludge is evenly distributed. We can then write equation <a class="reference internal" href="#equation-eq-plugflow">(11)</a> as follows:</p>
+<div class="math notranslate nohighlight" id="equation-eq-plugflowreaction">
+<span class="eqno">(12)<a class="headerlink" href="#equation-eq-plugflowreaction" title="Permalink to this equation">#</a></span>\[	\frac{d c}{d t} = D_{ax,2} \frac{d^2 c}{d x^2} + v \frac{d c} {d x} + q c_X(x)\]</div>
+<p>In this model the water in the reactor can get over-saturated with nitrogen gas. This means that the local concentration of nitrogen gas, <span class="math notranslate nohighlight">\(c\)</span>, becomes larger than the local saturation concentration according to equation <a class="reference internal" href="#equation-eq-henry">(1)</a>. It is assumed that nitrogen gas bubbles are formed immediately after over-saturation.  Most likely supersaturation of nitrogen gas can occur, but the effect is assumed to be limited <span id="id20">[<a class="reference internal" href="references.html#id33" title="M. Henze, R. Dupont, P. Grau, and A. de la Sota. Rising sludge in secondary settlers due to denitrification. Water Res., 27(2):231–236, feb 1993. doi:10.1016/0043-1354(93)90080-2.">Henze <em>et al.</em>, 1993</a>]</span>.</p>
+<p>All model parameters are given in <a class="reference internal" href="#tab-modelparametersch2"><span class="std std-numref">Table 5</span></a>.</p>
+<table class="colwidths-auto table" id="tab-modelparametersch2">
+<caption><span class="caption-number">Table 5 </span><span class="caption-text">Model parameters.</span><a class="headerlink" href="#tab-modelparametersch2" title="Permalink to this table">#</a></caption>
+<thead>
+<tr class="row-odd"><th class="head"><p>Parameter</p></th>
+<th class="head"><p>Symbol</p></th>
+<th class="head"><p>Value</p></th>
+<th class="head"><p>Unit</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Henry’s constant for N<sub>2</sub> (25 °C)</p></td>
+<td><p><span class="math notranslate nohighlight">\(k_h\)</span></p></td>
+<td><p>6.4 x 10<sup>-6</sup></p></td>
+<td><p>mole m<sup>-3</sup> Pa <sup>-1</sup></p></td>
+</tr>
+<tr class="row-odd"><td><p>Temperature coefficient N<sub>2</sub></p></td>
+<td><p><span class="math notranslate nohighlight">\(k_{hc}\)</span></p></td>
+<td><p>1300</p></td>
+<td><p>K</p></td>
+</tr>
+<tr class="row-even"><td><p>Molar mass N<sub>2</sub></p></td>
+<td><p><span class="math notranslate nohighlight">\(M\)</span></p></td>
+<td><p>28</p></td>
+<td><p>g mole<sup>-1</sup></p></td>
+</tr>
+<tr class="row-odd"><td><p>Gas fraction of N<sub>2</sub> in air</p></td>
+<td><p><span class="math notranslate nohighlight">\(f\)</span></p></td>
+<td><p>0.78</p></td>
+<td><p>-</p></td>
+</tr>
+<tr class="row-even"><td><p>Atmospheric pressure</p></td>
+<td><p><span class="math notranslate nohighlight">\(p_{atm}\)</span></p></td>
+<td><p>101,325</p></td>
+<td><p>Pa</p></td>
+</tr>
+<tr class="row-odd"><td><p>Density of water</p></td>
+<td><p><span class="math notranslate nohighlight">\(\rho\)</span></p></td>
+<td><p>1000</p></td>
+<td><p>kg m<sup>-3</sup></p></td>
+</tr>
+<tr class="row-even"><td><p>Gravity acceleration</p></td>
+<td><p><span class="math notranslate nohighlight">\(g\)</span></p></td>
+<td><p>9.81</p></td>
+<td><p>m s<sup>-2</sup></p></td>
+</tr>
+<tr class="row-odd"><td><p>Alpha factor</p></td>
+<td><p><span class="math notranslate nohighlight">\(\alpha\)</span></p></td>
+<td><p>1</p></td>
+<td><p>-</p></td>
+</tr>
+<tr class="row-even"><td><p>Fouling factor</p></td>
+<td><p><span class="math notranslate nohighlight">\(F\)</span></p></td>
+<td><p>1</p></td>
+<td><p>-</p></td>
+</tr>
+<tr class="row-odd"><td><p>Gas transfer rate for oxygen</p></td>
+<td><p><span class="math notranslate nohighlight">\({\left(k_L a\right)_O}\)</span></p></td>
+<td><p>5.5</p></td>
+<td><p>h<sup>-1</sup></p></td>
+</tr>
+<tr class="row-even"><td><p>Diffusion coefficient \ch{O2} (25 °C)</p></td>
+<td><p><span class="math notranslate nohighlight">\(D_O\)</span></p></td>
+<td><p>2.10 x 10<sup>-9</sup></p></td>
+<td><p>m<sup>2</sup> s<sup>-1</sup></p></td>
+</tr>
+<tr class="row-odd"><td><p>Diffusion coefficient N<sub>2</sub> (25 °C)</p></td>
+<td><p><span class="math notranslate nohighlight">\(D_N\)</span></p></td>
+<td><p>1.88 x 10<sup>-9</sup></p></td>
+<td><p>m<sup>2</sup> s<sup>-1</sup></p></td>
+</tr>
+<tr class="row-even"><td><p>Empirical coefficient A</p></td>
+<td><p><span class="math notranslate nohighlight">\(A\)</span></p></td>
+<td><p>-10.6265</p></td>
+<td><p>-</p></td>
+</tr>
+<tr class="row-odd"><td><p>Empirical coefficient B</p></td>
+<td><p><span class="math notranslate nohighlight">\(B\)</span></p></td>
+<td><p>578.919</p></td>
+<td><p>-</p></td>
+</tr>
+<tr class="row-even"><td><p>Empirical coefficient C</p></td>
+<td><p><span class="math notranslate nohighlight">\(C\)</span></p></td>
+<td><p>-137.546</p></td>
+<td><p>-</p></td>
+</tr>
+<tr class="row-odd"><td><p>Axial dispersion during aeration</p></td>
+<td><p><span class="math notranslate nohighlight">\(D_{ax,1}\)</span></p></td>
+<td><p>1.0 x 10<sup>-2</sup></p></td>
+<td><p>m<sup>2</sup> s<sup>-1</sup></p></td>
+</tr>
+<tr class="row-even"><td><p>Axial dispersion during feeding</p></td>
+<td><p><span class="math notranslate nohighlight">\(D_{ax,2}\)</span></p></td>
+<td><p>1.0 x 10<sup>-4</sup></p></td>
+<td><p>m<sup>2</sup> s<sup>-1</sup></p></td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+<section id="results">
+<h2>Results<a class="headerlink" href="#results" title="Permalink to this headline">#</a></h2>
+<section id="reactor-operation">
+<h3>Reactor operation<a class="headerlink" href="#reactor-operation" title="Permalink to this headline">#</a></h3>
+<p>The data were collected between June 2015 and May 2016. In this period the reactor was running stable and without interruption with average effluent values of COD of 41 mg L<sup>-1</sup>, N<sub>kj</sub>-N of 4.05 mg L<sup>-1</sup>, NH<sub>4</sub><sup>+</sup>-N of 1.29 mg L<sup>-1</sup>, NO<sub>3</sub><sup>-</sup>-N of 3.72 mg L<sup>-1</sup>, P<sub>tot</sub>-P of 0.51 mg L<sup>-1</sup> and PO<sub>4</sub><sup>3-</sup>-P of 0.26 mg L<sup>-1</sup>, showing a highly efficient N and P removal of respectively 94 % and 91 %. The average granule size distribution is reported in <a class="reference internal" href="#tab-granules"><span class="std std-numref">Table 4</span></a>.  The sludge in the reactor mainly consisted of smooth granules larger than 1 mm, which is also shown by the microscopic image of the sludge in <a class="reference internal" href="#fig-sludge-in-reactor"><span class="std std-numref">Fig. 6</span></a>A. The water temperature was in the range of 9 - 23 °C.</p>
+<figure class="align-default" id="fig-sludge-in-reactor">
+<img alt="_images/picture_sludge.png" src="_images/picture_sludge.png" />
+<figcaption>
+<p><span class="caption-number">Fig. 6 </span><span class="caption-text">Biomass in the Prototype Nereda<sup>®</sup> Utrecht: (A) granules in the reactor, (B) light microscopic picture of effluent suspended solids, (C) scum on top of the reactor after installation of the baffles, (D) biomass from the top of the reactor.</span><a class="headerlink" href="#fig-sludge-in-reactor" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
+</section>
+<section id="degasification-of-nitrogen-gas">
+<h3>Degasification of nitrogen gas<a class="headerlink" href="#degasification-of-nitrogen-gas" title="Permalink to this headline">#</a></h3>
+<p>Due to denitrification and upward transport of liquid (decreasing local pressure) over-saturation of the water phase with nitrogen gas can occur, leading to gas bubble formation in the feeding/decanting period. To confirm that over-saturation of nitrogen gas is present during parts of the cycle an experiment was performed. Two comparable batches were fed to the reactor. The batch sizes are given as <a class="reference internal" href="glossary.html#term-VER"><span class="xref std std-term">VER</span></a>, which is the ratio between the batch size (f.e. 400 m<sup>3</sup>) and the volume of the reactor (1000 m<sup>3</sup>). Before the first batch (batch 1) the reactor was intensely aerated before feeding the reactor, while in the second batch (batch 2) this stripping phase was omitted. The gas stripping period was 30 minutes long, with an air flow of 800 m<sup>3</sup> h<sup>-1</sup>. This high value was chosen to strip a maximum amount of nitrogen gas. The process conditions in the two batches were comparable (batch 1: volumetric exchange ratio 40 %, nitrogen removed in previous batch 13.8 mg L<sup>-1</sup>, average temperature 13.6 °C; batch 2: volumetric exchange ratio 40 %, nitrogen removed in previous batch 13.9 mg L<sup>-1</sup>, average temperature 13.5 °C).  The effect of a stripping phase is clearly illustrated in figure <a class="reference internal" href="#fig-effectstripping"><span class="std std-numref">Fig. 7</span></a>, showing the effluent turbidity for both batches. Batch 1 showed an overall lower level effluent turbidity with a turbidity slightly decreasing over the batch, with an average value of 4.9 FNU. The turbidity in batch 2 was overall higher than in batch 1, with an average value of 21.0 FNU. At a volumetric exchange ratio of 30 % the effluent turbidity started to increase up to a value of 48.5 FNU at the end of batch 2. In <a class="reference internal" href="#fig-degassificationscum"><span class="std std-numref">Fig. 8</span></a> photographs recorded by a security camera are showing the gradual formation of a scum layer due to degasification during batch 2.</p>
+<figure class="align-default" id="fig-effectstripping">
+<img alt="_images/figure_rising_sludge_event.svg" src="_images/figure_rising_sludge_event.svg" /><figcaption>
+<p><span class="caption-number">Fig. 7 </span><span class="caption-text">Turbidity of the effluent in a batch with gas stripping (batch 1) and without gas stripping (batch 2).</span><a class="headerlink" href="#fig-effectstripping" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
+<figure class="align-default" id="fig-degassificationscum">
+<img alt="_images/picture_degassification_event.png" src="_images/picture_degassification_event.png" />
+<figcaption>
+<p><span class="caption-number">Fig. 8 </span><span class="caption-text">Degasification and the resulting floatation of biomass during feeding in a batch without stripping: (A) VER = 0 % (B) VER = 20 % (C) VER = 40 %.</span><a class="headerlink" href="#fig-degassificationscum" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
+</section>
+<section id="stripping-of-nitrogen-gas">
+<h3>Stripping of nitrogen gas<a class="headerlink" href="#stripping-of-nitrogen-gas" title="Permalink to this headline">#</a></h3>
+<p>Dissolved nitrogen gas can be stripped out by aerating right before the feeding phase to prevent rising of biomass as is shown above.
+Equation <a class="reference internal" href="#equation-eq-strippingofnitrogengas">(9)</a>, together with equation <a class="reference internal" href="#equation-eq-henry">(1)</a> and <a class="reference internal" href="#equation-eq-pressure">(2)</a> for pressure correction, equation <a class="reference internal" href="#equation-eq-stokeseinstein">(5)</a>, equation <a class="reference internal" href="#equation-eq-vogelfulchertammann">(6)</a> and equation <a class="reference internal" href="#equation-eq-vanthoff">(7)</a> for temperature correction and equation <a class="reference internal" href="#equation-eq-convertkla">(4)</a> for the conversion of the k<sub>L</sub>a can be used to evaluate the effect of the stripping period on the dissolved N<sub>2</sub> concentration in the reactor.</p>
+<p>In <a class="reference internal" href="#fig-modelstripping"><span class="std std-numref">Fig. 9</span></a> the effect of stripping of an initially fully N<sub>2</sub> saturated situation in the reactor is shown at a temperature of 20 °C. The dissolved nitrogen gas concentration in the reactor (top at 0 m, bottom at 7 m) is shown. The figure shows three coloured zones: the blue zone marks the area where the nitrogen gas concentration is lower than the equilibrium concentration for air (i.e. no degasification expected). The grey zone marks the area where the nitrogen gas concentration is higher than the equilibrium concentration for pure nitrogen gas (i.e. degasification expected). The white zone marks the area where only a partial nitrogen gas deficit exists. The boundary between the blue area and the white area is calculated according to equation <a class="reference internal" href="#equation-eq-henry">(1)</a> and equation <a class="reference internal" href="#equation-eq-pressure">(2)</a> with a gas fraction of nitrogen gas in air at ambient water pressure and temperature (f=78 %). The boundary between the white and the grey area is calculated in a similar manner, but with pure nitrogen gas bubbles (f=100 %).</p>
+<p>The mixing of the reactor has a large impact on the effect of the stripping phase. Dissolved nitrogen gas is convectively transported through the reactor, leading to an over-saturated situation near the top of the reactor and an undersaturated situation near the bottom of the reactor. When the aeration continues, the nitrogen gas is slowly stripped out of the reactor and a N<sub>2</sub> deficit is created at the bottom of the tank. After 15 minutes, due to the mixing, the N<sub>2</sub> concentration near the bottom of the reactor is lower than the air equilibrium concentration at 7 meters water depth. However, near the top of the reactor the N<sub>2</sub> concentration is still over-saturated. Even after 60 minutes of aeration the nitrogen concentration is still at saturation concentration near the top of the reactor due to upmixing of dissolved N<sub>2</sub> gas. Note that for operational conditions over-saturation at the top of the reactor is not important since there is no sludge bed/blanket near the top of the reactor during effluent withdrawal.</p>
+<figure class="align-default" id="fig-modelstripping">
+<img alt="_images/figure_model_stripping.svg" src="_images/figure_model_stripping.svg" /><figcaption>
+<p><span class="caption-number">Fig. 9 </span><span class="caption-text">Stripping of N<sub>2</sub> gas from fully saturated situation (A) and after 5 minutes (B), 15 minutes (C) and 60 minutes of stripping (D) at 13.5 °C. Black solid line: the actual N<sub>2</sub> concentration, grey area: N<sub>2</sub> concentration above saturation, blue area: N<sub>2</sub> concentration below equilibrium with air, boundary between grey area and white area: N<sub>2</sub> concentration at equilibrium with pure nitrogen gas at ambient water pressure, boundary between blue area and white area: N<sub>2</sub> concentration at equilibrium with air at ambient water pressure.</span><a class="headerlink" href="#fig-modelstripping" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
+<figure class="align-default" id="fig-modelfeedingwithstripping">
+<img alt="_images/figure_model_longstrip_feeding.svg" src="_images/figure_model_longstrip_feeding.svg" /><figcaption>
+<p><span class="caption-number">Fig. 10 </span><span class="caption-text">Effect of feeding after a stripping phase on the dissolved nitrogen gas concentration from the start (A), after 15 minutes (B), after 30 minutes (C) and after 50 minutes (D). T = 13.5 °C, r = 0.25 mg g<sup>-1</sup> h<sup>-1</sup>.
+Black solid line: the actual N<sub>2</sub> concentration, black dashed line: biomass concentration, grey area: N<sub>2</sub> concentration above saturation, blue area: N<sub>2</sub> concentration below equilibrium with air, boundary between grey area and white area: N<sub>2</sub> concentration at equilibrium with pure nitrogen gas at ambient water pressure, boundary between blue area and white area: N<sub>2</sub> concentration at equilibrium with air at ambient water pressure.</span><a class="headerlink" href="#fig-modelfeedingwithstripping" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
+<figure class="align-default" id="fig-modelfeedingnostripping">
+<img alt="_images/figure_model_nostrip_feeding.svg" src="_images/figure_model_nostrip_feeding.svg" /><figcaption>
+<p><span class="caption-number">Fig. 11 </span><span class="caption-text">Effect of feeding without a prior stripping phase on the dissolved nitrogen gas concentration from the start (A), after 15 minutes (B), after 30 minutes (C) and after 50 minutes (D). T = 13.5 °C, r = 0.25 mg g<sup>-1</sup> h<sup>-1</sup>.
+Black solid line: the actual N<sub>2</sub> concentration, black dashed line: biomass concentration, grey area: N<sub>2</sub> concentration above saturation, blue area: N<sub>2</sub> concentration below equilibrium with air, boundary between grey area and white area: N<sub>2</sub> concentration at equilibrium with pure nitrogen gas at ambient water pressure, boundary between blue area and white area: N<sub>2</sub> concentration at equilibrium with air at ambient water pressure.</span><a class="headerlink" href="#fig-modelfeedingnostripping" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
+</section>
+<section id="degasification-during-feeding">
+<h3>Degasification during feeding<a class="headerlink" href="#degasification-during-feeding" title="Permalink to this headline">#</a></h3>
+<p>The effect of denitrification during feeding on degasification of nitrogen gas was also evaluated by extending the model according to equation <a class="reference internal" href="#equation-eq-plugflowreaction">(12)</a>. In <a class="reference internal" href="#fig-modelfeedingwithstripping"><span class="std std-numref">Fig. 10</span></a> an example is shown for a batch comparable with the previously described batch 1 in which a stripping phase of 30 minutes is applied, with T = 13.5 °C, r = 0.25 mg g<sup>-1</sup> h<sup>-1</sup>.</p>
+<p>The model shows limited over-saturation during the feeding period of 1 hour, but the over-saturation only occurs above the sludge blanket so rising of sludge due to bubble formation is not likely to happen.</p>
+<p>If the stripping phase is reduced to 5 minutes, again with T = 13.5 °C, r = 0.25 mg g<sup>-1</sup> h<sup>-1</sup>, a situation comparable with the above described batch 2 experiment can be modelled.  The results are shown in <a class="reference internal" href="#fig-modelfeedingnostripping"><span class="std std-numref">Fig. 11</span></a>. The water in the vicinity of the sludge blanket is almost immediately slightly over-saturated with nitrogen gas. After 30 minutes the top of the sludge blanket is fully over-saturated with nitrogen gas, which most likely will lead to rising sludge as the escaping nitrogen bubbles get caught by small flocs near the supernatant - sludge interface.</p>
+</section>
+<section id="identification-of-suspended-solids-in-the-effluent">
+<h3>Identification of suspended solids in the effluent<a class="headerlink" href="#identification-of-suspended-solids-in-the-effluent" title="Permalink to this headline">#</a></h3>
+<p>The suspended solids present in the effluent were examined under a stereo-zoom microscope to determine the characteristics and possible origin. <a class="reference internal" href="#fig-sludge-in-reactor"><span class="std std-numref">Fig. 6</span></a>b and <a class="reference internal" href="#fig-sludge-in-reactor"><span class="std std-numref">Fig. 6</span></a>d show that the suspended solids in the effluent are small dense light brown flocs. No filamentous organisms like <em>Thiothrix</em> spp. or <em>Microthrix</em> spp. were observed that would normally be associated with bad settling sludge (<a class="reference internal" href="#fig-sludge-in-reactor"><span class="std std-numref">Fig. 6</span></a>d). It was also observed that after light shaking of the sample flask the suspended solids quickly settled to the bottom indicating that the suspended solids were able to settle well.</p>
+</section>
+<section id="effect-of-the-vertical-baffle">
+<h3>Effect of the vertical baffle<a class="headerlink" href="#effect-of-the-vertical-baffle" title="Permalink to this headline">#</a></h3>
+<p>During the first experimental period (between April 2013 and May 2015)  the average suspended solids effluent concentration was 30 mg L<sup>-1</sup> with a 50-percentile value of 19.8 mg L<sup>-1</sup>. In the same period, many values below 10 mg L<sup>-1</sup> were also recorded with a 25-percentile value of 9.3 mg L<sup>-1</sup>.
+On the 3rd of June 2015 vertical baffles were installed in front of the overflow weirs. Composite samples of the effluent of the reactor were taken in the period immediately before and after the baffles were installed; i.e. under similar operational and sludge characteristics. <a class="reference internal" href="#fig-effectbaffle"><span class="std std-numref">Fig. 12</span></a> shows the effluent suspended solids in this period. In the period immediately before installation of the baffles the average effluent suspended solids concentration was 23 mg L<sup>-1</sup>, which is 10 % of the influent suspended solids concentration. In the period directly after installation of the baffles only 1 sample was above 10 mg L<sup>-1</sup> with a total average of 7.2 mg L<sup>-1</sup>. In the period June 2015 to May 2016, 175 composite influent and effluent samples were taken by the local water authority. The suspended solids concentration in the influent was 230 ± 180 mg L<sup>-1</sup> and the concentration of effluent suspended solids was
+7.8 ± 3.8 mg L<sup>-1</sup> with a 95-percentile value of 13.6 mg L<sup>-1</sup>.
+The average removal efficiency of suspended solids was 97 %. After installation of the baffles a thin layer of scum was present in most batches during feeding (<a class="reference internal" href="#fig-sludge-in-reactor"><span class="std std-numref">Fig. 6</span></a>c), but in this period no built up of scum was observed. The thin layer of scum always disappeared in the first few minutes of the reaction phase of the cycle.</p>
+<figure class="align-default" id="fig-effectbaffle">
+<img alt="_images/figure_effect_baffle.svg" src="_images/figure_effect_baffle.svg" /><figcaption>
+<p><span class="caption-number">Fig. 12 </span><span class="caption-text">Suspended solids concentration in the effluent before and after installation of vertical baffle in front of the overflow weirs.</span><a class="headerlink" href="#fig-effectbaffle" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
+</section>
+</section>
+<section id="discussion">
+<h2>Discussion<a class="headerlink" href="#discussion" title="Permalink to this headline">#</a></h2>
+<section id="comparison-with-floc-systems">
+<h3>Comparison with floc systems<a class="headerlink" href="#comparison-with-floc-systems" title="Permalink to this headline">#</a></h3>
+<p>In this study we examined the main processes for production of effluent suspended solids in full-scale aerobic granular sludge reactors. The problem of rising sludge is known from both continuously fed activated sludge systems <span id="id21">[<a class="reference internal" href="references.html#id33" title="M. Henze, R. Dupont, P. Grau, and A. de la Sota. Rising sludge in secondary settlers due to denitrification. Water Res., 27(2):231–236, feb 1993. doi:10.1016/0043-1354(93)90080-2.">Henze <em>et al.</em>, 1993</a>]</span> as from sequencing batch reactors <span id="id22">[<a class="reference internal" href="references.html#id26" title="J. A. Torà, J. A. Baeza, J. Carrera, and J. A. Oleszkiewicz. Denitritation of a high-strength nitrite wastewater in a sequencing batch reactor using different organic carbon sources. Chem. Eng. J., 172(2-3):994–998, 2011. doi:10.1016/J.CEJ.2011.07.013.">Torà <em>et al.</em>, 2011</a>]</span>. Comparison of the flow patterns in a secondary clarifier and the AGS reactor reveals some important differences (<a class="reference internal" href="#fig-comparison-clarifier-ags"><span class="std std-numref">Fig. 13</span></a>). The outflow from an aeration tank towards a secondary clarifier generally flows over a weir making the water pressure almost atmospheric and generating a lot of turbulence. This is an effective way to remove at least part of the dissolved nitrogen gas. Subsequently, the water from the aeration tank flows into the secondary clarifier through the centre well where the water pressure is close to atmospheric pressure again. In the clarifier the flow splits into effluent and return sludge. The return sludge is removed from the bottom of the clarifier. During dry weather conditions a limited amount of sludge is present in the clarifier and this sludge will be near the bottom of the clarifier at a water pressure well above atmospheric pressure. If the water pressure increases at higher water depth, automatically the nitrogen gas deficit increases. Thus, if nitrogen gas is formed in a clarifier due to denitrification this will mainly take place at the bottom of the clarifier, where a relatively high nitrogen gas deficit is present. This is probably why degasification in a clarifier is not a very common problem and is only known from high loaded systems at high temperatures with high denitrification rates <span id="id23">[<a class="reference internal" href="references.html#id41" title="M. Sarioglu and N. Horan. An equation for the empirical design of anoxic zones used to eliminate rising sludges at nitrifying activated sludge plants. Water Sci. Technol., 33(3):185–194, 1996. doi:10.1016/0273-1223(96)00312-5.">Sarioglu and Horan, 1996</a>]</span> or when the inflow to the clarifier is not degassed at an overflow weir. In the AGS reactor the influent is fed from the bottom of the reactor, pushing the with nitrogen gas saturated water in the reactor upwards to lower water pressure. This process is comparable with the process occurring in a sequencing batch reactor, where degasification can occur while decanting the effluent and thereby decreasing the water pressure. Thus, while feeding the reactor, the upwards moving liquid gets a lower saturation concentration for nitrogen gas, while in a clarifier it gets increased.
+In the AGS reactor during feeding, denitrification of remaining nitrate on storage polymers by GAO and PAO like organisms, built up in previous cycles, can occur <span id="id24">[<a class="reference internal" href="references.html#id25" title="T. Kuba, E. Murnleitner, M. C. M. van Loosdrecht, and J. J. Heijnen. A metabolic model for biological phosphorus removal by denitrifying organisms. Biotechnol. Bioeng., 52(6):685–695, 1996. doi:10.1002/(SICI)1097-0290(19961220)52:6&lt;685::AID-BIT6&gt;3.0.CO;2-K.">Kuba <em>et al.</em>, 1996</a>]</span>. The combination of a lower nitrogen gas deficit due to pressure decrease and a higher denitrification potential make the AGS reactor more susceptible for degasification of nitrogen gas in comparison to a clarifier. Therefore, washout of suspended solids due to degasification of nitrogen gas is less common in clarifiers than in AGS reactors.</p>
+<figure class="align-default" id="fig-comparison-clarifier-ags">
+<img alt="_images/degasification_clarifier.svg" src="_images/degasification_clarifier.svg" /><figcaption>
+<p><span class="caption-number">Fig. 13 </span><span class="caption-text">Comparison of flow in an AGS reactor (left) and flow in a conventional aeration tank and clarifier (right).</span><a class="headerlink" href="#fig-comparison-clarifier-ags" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
+</section>
+<section id="effect-of-n-sub-2-sub-stripping">
+<h3>Effect of N<sub>2</sub> stripping<a class="headerlink" href="#effect-of-n-sub-2-sub-stripping" title="Permalink to this headline">#</a></h3>
+<p>Rising of sludge due to degasification of dissolved N<sub>2</sub> gas can cause elevated levels of suspended solids in the effluent of activated sludge and AGS plants. Experimentally it was shown that a nitrogen gas stripping phase just before the influent feeding phase was effective to prevent rising of sludge in the AGS process. The developed mathematical model shows that a limited amount of N<sub>2</sub> gas deficit can be reached by applying a stripping phase. When the water is pushed up during the feeding phase almost immediate over-saturation occurs when no stripping phase is applied.</p>
+<p>The model presented by Henze et al. <span id="id25">[<a class="reference internal" href="references.html#id33" title="M. Henze, R. Dupont, P. Grau, and A. de la Sota. Rising sludge in secondary settlers due to denitrification. Water Res., 27(2):231–236, feb 1993. doi:10.1016/0043-1354(93)90080-2.">Henze <em>et al.</em>, 1993</a>]</span> only showed a steady state N<sub>2</sub> gas deficit in an unmixed situation. This model was extended to show the effect of non-steady state aeration and feeding. A convection/dispersion term was added to the model to describe both mixing due to aeration of the reactor and the plug flow behaviour of the AGS reactor during feeding. The model shows that the local dissolved N<sub>2</sub> gas concentration changes over time and depth of the reactor. The maximum deficit for N<sub>2</sub> gas depends highly on the temperature, as do the denitrification rates. The model can easily be extended to calculate the risk of rising sludge based on temperature, batch size and aeration history of the reactor. Denitrification rates increase with temperature and the N<sub>2</sub> gas deficit will decrease with temperature. At temperatures above 20 °C the need for a stripping phase increases. It should be realized that for the denitrification during the settling/feeding phase mainly residual COD from the previous cycles is used. The COD containing influent is replacing the nitrate containing liquid in the reactor. Therefore, influent COD and nitrate will only mix after the feeding phase when the aeration is switched on.</p>
+</section>
+<section id="effect-of-the-scum-baffle">
+<h3>Effect of the scum baffle<a class="headerlink" href="#effect-of-the-scum-baffle" title="Permalink to this headline">#</a></h3>
+<p>Introduction of the vertical scum baffles in front of the effluent weir lowered the effluent suspended solids concentration from 23 mg L<sup>-1</sup> to 7 mg L<sup>-1</sup>. Analyses of the suspended solids in the effluent before installation of the baffles did not show any significant presence of granules or filamentous bacteria.  Microscopic analyses only revealed the presence of small sludge flocs. The thin layer of sludge present on the surface of the reactor during feeding, observed after installation of the baffles apparently was the result of the blocking of wash-out of floating sludge by the baffles. The same effect is known from clarifiers in activated sludge systems <span id="id26">[<a class="reference internal" href="references.html#id40" title="Metcalf &amp; Eddy. Wastewater Engineering: Treatment and Resource Recovery. McGraw-Hill, 5th edition, 2013. ISBN 9780073401188.">Metcalf &amp; Eddy, 2013</a>]</span>.</p>
+<p>It was shown that at a MLSS concentration of 10.1 g L<sup>-1</sup> and an influent suspended solids of 230 mg L<sup>-1</sup> an effluent suspended solids concentration below 10 mg L<sup>-1</sup> was obtained over long-term operation. The flocs present in the layer on top of the reactor are assumed to be grown in the reactor. Apparently, not all biomass grown in the reactor is granular. The flocculent mass likely consists of non-biodegradable inert COD from the influent and detached biomass from the granules. This is also shown by the fractionation of the sludge showing an average 16 % of mass smaller than 200 µm.</p>
+<p>The influent of the reactor contained an average of 230 mg L<sup>-1</sup> of TSS after screening. Since the only pre-treatment of the reactor was a 6 mm perforated plate screen, some floating material from the sewerage will end up in the reactor. Although the influent consists merely of domestic wastewater, the sewage of the Overvecht district is known to contain relatively large fraction of fat. Some fatlike particles were observed in the reactor, but in the period of 10 months in which the experiment was run, no build-up of scum  or fat on the reactor was observed. Apparently, the fat particles were converted or removed with the excess sludge.</p>
+<p>The reported values of effluent suspended solids of 20 mg L<sup>-1</sup> for the Garmerwolde plant <span id="id27">[<a class="reference internal" href="references.html#id32" title="M. Pronk, M. K. de Kreuk, L. M. M. de Bruin, P. Kamminga, R. Kleerebezem, and M. C. M. van Loosdrecht. Full scale performance of the aerobic granular sludge process for sewage treatment. Water Res., 84:207–217, nov 2015. doi:10.1016/j.watres.2015.07.011.">Pronk <em>et al.</em>, 2015</a>]</span> are comparable with the levels measured in this study before installation of the vertical baffles in front of the effluent weirs. Since the Garmerwolde plant mainly treats domestic sewage and also the pre-treatment of the wastewater is comparable, these levels of effluent suspended solids are to be expected. Also reported values for other plants (<a class="reference internal" href="#tab-reportedsuspendedsolids"><span class="std std-numref">Table 2</span></a>) were in the range of
+10 - 20 mg L<sup>-1</sup> and thus comparable with the values measured in this study before installation of the vertical baffle. This value is to be expected from a full-scale aerobic granular sludge reactor on domestic wastewater if no baffle is present. The Gansbaai plant is the exception, with a value of 5 mg L<sup>-1</sup>, but detailed information is not available. Baffles have proven to be an effective and economic way to keep effluent suspended solids below 10 mg L<sup>-1</sup>, similar to well operated secondary clarifier effluents.</p>
+</section>
+</section>
+<section id="conclusions">
+<h2>Conclusions<a class="headerlink" href="#conclusions" title="Permalink to this headline">#</a></h2>
+<p>In this study, two main processes have been identified that can contribute to elevated suspended solids concentration in the effluent of the aerobic granular sludge process in practice. These processes also play an important role in suspended solids control in secondary clarifiers of activated sludge plants. Two solutions known from operation of secondary clarifiers could successfully be incorporated into the AGS process leading to low concentration of suspended solids in the effluent. The implementation of nitrogen stripping, before the settling period, avoids gas bubble formation during feeding and thus the floatation of lighter biomass. A mathematical model describing degasification was developed that explains the observations of higher suspended solids concentrations in the effluent when treating sewage. Introduction of a vertical baffle in front of the effluent weir showed to be an effective measure to keep floating sludge and fat-like particle in the reactor, resulting in an effluent suspended solids concentration lower than 10 mg L<sup>-1</sup> with an average influent suspended solids concentration of 230 mg L<sup>-1</sup>. This was achieved with high biomass concentrations (10 g L<sup>-1</sup>) and a high granulation grade (84 %).</p>
+<!-- ## References
+```{bibliography}
+:filter: docname in docnames
+``` --></section>
+</section>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            kernelName: "python3",
+            path: "./."
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+              </div>
+              
+            </main>
+            <footer class="footer-article noprint">
+                
+    <!-- Previous / next buttons -->
+<div class='prev-next-area'>
+    <a class='left-prev' id="prev-link" href="chapter-1.html" title="previous page">
+        <i class="fas fa-angle-left"></i>
+        <div class="prev-next-info">
+            <p class="prev-next-subtitle">previous</p>
+            <p class="prev-next-title">Introduction</p>
+        </div>
+    </a>
+    <a class='right-next' id="next-link" href="chapter-3.html" title="next page">
+    <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">Settling behaviour</p>
+    </div>
+    <i class="fas fa-angle-right"></i>
+    </a>
+</div>
+            </footer>
+        </div>
+    </div>
+    <div class="footer-content row">
+        <footer class="col footer"><p>
+  
+    By dr. ir. E.J.H. van Dijk<br/>
+  
+      &copy; Copyright 2022.<br/>
+</p>
+        </footer>
+    </div>
+    
+</div>
+
+
+      </div>
+    </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="_static/scripts/pydata-sphinx-theme.js?digest=1999514e3f237ded88cf"></script>
+
+
+  </body>
+</html>
