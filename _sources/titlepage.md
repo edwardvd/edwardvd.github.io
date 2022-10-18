@@ -50,4 +50,4 @@ prof. dr. D. Brdjanovic (Technische Universiteit Delft - reservelid)</BR>
 &copy; Copyright 2022 by E.J.H. van Dijk</BR>
 ISBN 978-94-6366-601-5
 
-An electronic version of this dissertation is available at https://repository.tudelft.nl/
+An electronic version of this dissertation is available at [https://repository.tudelft.nl/](https://doi.org/10.4233/uuid:132820aa-ec0e-40e5-92cf-9599a18579c0)
