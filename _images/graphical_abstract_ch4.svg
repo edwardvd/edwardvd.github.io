@@ -7,7 +7,7 @@
    viewBox="0 0 379.73395 278.60861"
    version="1.1"
    id="svg5"
-   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
+   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14, custom)"
    sodipodi:docname="graphical_abstract_ch4.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
@@ -25,10 +25,10 @@
      inkscape:document-units="mm"
      showgrid="true"
      inkscape:zoom="1"
-     inkscape:cx="734.5"
-     inkscape:cy="511.5"
-     inkscape:window-width="3440"
-     inkscape:window-height="1364"
+     inkscape:cx="735.5"
+     inkscape:cy="119.5"
+     inkscape:window-width="1920"
+     inkscape:window-height="1012"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
@@ -41,7 +41,9 @@
      fit-margin-top="0"
      fit-margin-left="0"
      fit-margin-right="0"
-     fit-margin-bottom="0">
+     fit-margin-bottom="0"
+     inkscape:showpageshadow="2"
+     inkscape:deskcolor="#d1d1d1">
     <inkscape:grid
        type="xygrid"
        id="grid19821"
@@ -2044,7 +2046,9 @@
          id="tspan17135"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;font-family:Tahoma;-inkscape-font-specification:Tahoma;stroke-width:0.264583"
          x="303.832"
-         y="4.1159534">N2O</tspan></text>
+         y="4.1159534">N<tspan
+   style="font-size:65%;baseline-shift:sub"
+   id="tspan526">2</tspan>O</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;line-height:1.25;font-family:Tahoma;-inkscape-font-specification:Tahoma;stroke-width:0.264583"
@@ -2055,7 +2059,9 @@
          id="tspan14691"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;font-family:Tahoma;-inkscape-font-specification:Tahoma;stroke-width:0.264583"
          x="324.78592"
-         y="6.7351947">N2O</tspan></text>
+         y="6.7351947">N<tspan
+   style="font-size:65%;baseline-shift:sub"
+   id="tspan528">2</tspan>O</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;line-height:1.25;font-family:Tahoma;-inkscape-font-specification:Tahoma;stroke-width:0.264583"
@@ -2066,17 +2072,23 @@
          id="tspan34856"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;font-family:Tahoma;-inkscape-font-specification:Tahoma;stroke-width:0.264583"
          x="456.43402"
-         y="-71.430641">(1) source of N2O</tspan><tspan
+         y="-71.430641">(1) source of N<tspan
+   style="font-size:65%;baseline-shift:sub"
+   id="tspan530">2</tspan>O</tspan><tspan
          sodipodi:role="line"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;font-family:Tahoma;-inkscape-font-specification:Tahoma;stroke-width:0.264583"
          x="456.43402"
          y="-62.611191"
-         id="tspan36730">(2) sink of N2O</tspan><tspan
+         id="tspan36730">(2) sink of N<tspan
+   style="font-size:65%;baseline-shift:sub"
+   id="tspan532">2</tspan>O</tspan><tspan
          sodipodi:role="line"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;font-family:Tahoma;-inkscape-font-specification:Tahoma;stroke-width:0.264583"
          x="456.43402"
          y="-53.79174"
-         id="tspan36732">(3) stripping of N2O</tspan></text>
+         id="tspan36732">(3) stripping of N<tspan
+   style="font-size:65%;baseline-shift:sub"
+   id="tspan534">2</tspan>O</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:7.05556px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"

@@ -2,12 +2,12 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="885.15826mm"
-   height="425.67841mm"
-   viewBox="0 0 885.15826 425.67841"
+   width="893.62073mm"
+   height="434.45599mm"
+   viewBox="0 0 893.62072 434.45599"
    version="1.1"
    id="svg5782"
-   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
+   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14, custom)"
    sodipodi:docname="figure_granule_size.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
@@ -28,31 +28,33 @@
      fit-margin-right="0"
      fit-margin-bottom="0"
      showborder="true"
-     inkscape:zoom="0.28061869"
-     inkscape:cx="2022.3172"
-     inkscape:cy="938.99662"
-     inkscape:window-width="3440"
-     inkscape:window-height="1364"
+     inkscape:zoom="0.58404882"
+     inkscape:cx="1377.4533"
+     inkscape:cy="1211.3713"
+     inkscape:window-width="1920"
+     inkscape:window-height="1012"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
      inkscape:current-layer="layer1"
      inkscape:snap-bbox="false"
-     inkscape:snap-global="false" />
+     inkscape:snap-global="false"
+     inkscape:showpageshadow="2"
+     inkscape:deskcolor="#d1d1d1" />
   <defs
      id="defs5779">
     <marker
        style="overflow:visible"
        id="TriangleInM"
-       refX="0.0"
-       refY="0.0"
+       refX="0"
+       refY="0"
        orient="auto"
        inkscape:stockid="TriangleInM"
        inkscape:isstock="true">
       <path
          transform="scale(-0.4)"
-         style="fill-rule:evenodd;fill:context-stroke;stroke:context-stroke;stroke-width:1.0pt"
-         d="M 5.77,0.0 L -2.88,5.0 L -2.88,-5.0 L 5.77,0.0 z "
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 5.77,0 -2.88,5 V -5 Z"
          id="path15449" />
     </marker>
     <marker
@@ -172,7 +174,7 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(142.27855,78.026855)">
+     transform="translate(142.27855,78.021894)">
     <circle
        style="fill:#f2f2f2;stroke:#000000;stroke-width:4.00001;stroke-miterlimit:4;stroke-dasharray:none"
        id="path5865"
@@ -186,7 +188,7 @@
        cy="101.13806"
        r="97.999992" />
     <circle
-       style="fill:#00a6d6;fill-opacity:1;stroke:#000000;stroke-width:4.00000995;stroke-miterlimit:4;stroke-dasharray:8.0000199,8.0000199;stroke-dashoffset:0"
+       style="fill:#00a6d6;fill-opacity:1;stroke:#000000;stroke-width:4.00001;stroke-miterlimit:4;stroke-dasharray:8.00002, 8.00002;stroke-dashoffset:0"
        id="path5865-3-1"
        cx="-2.2785425"
        cy="101.13806"
@@ -249,18 +251,26 @@
          id="tspan7894-2"
          style="font-size:21.1667px;stroke-width:0.264583"
          x="-48.517189"
-         y="345.00571">low NO3-</tspan></text>
+         y="345.00571">low NO<tspan
+   style="font-size:65%;baseline-shift:sub"
+   id="tspan316">3</tspan><tspan
+   style="font-size:65%;baseline-shift:super"
+   id="tspan318">-</tspan></tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:21.1667px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
        x="250.54442"
-       y="342.57153"
+       y="345.00571"
        id="text16856"><tspan
          sodipodi:role="line"
          id="tspan16854"
          style="font-size:21.1667px;stroke-width:0.264583"
          x="250.54442"
-         y="342.57153">high NO3-</tspan></text>
+         y="345.00571">high NO<tspan
+   style="font-size:65%;baseline-shift:sub"
+   id="tspan320">3</tspan><tspan
+   style="font-size:65%;baseline-shift:super"
+   id="tspan322">-</tspan></tspan></text>
     <g
        id="g30052">
       <rect
@@ -305,11 +315,11 @@
            y="45.109665">aerobic zone</tspan></text>
     </g>
     <path
-       style="fill:none;stroke:#000000;stroke-width:3.00000008;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:9.00000025,9.00000025;stroke-opacity:1;marker-start:url(#TriangleInM);stroke-dashoffset:0"
+       style="fill:none;stroke:#000000;stroke-width:3;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:9, 9;stroke-dashoffset:0;stroke-opacity:1;marker-start:url(#TriangleInM)"
        d="m -2.2785425,53.987559 v -48.6830898 0"
        id="path26124-6" />
     <path
-       style="fill:none;stroke:#000000;stroke-width:3.00000008;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:9.00000025,9.00000025;stroke-opacity:1;marker-start:url(#TriangleInM);stroke-dashoffset:0"
+       style="fill:none;stroke:#000000;stroke-width:3;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:9, 9;stroke-dashoffset:0;stroke-opacity:1;marker-start:url(#TriangleInM)"
        d="m -2.2785425,146.32561 v 48.68309 0"
        id="path30257" />
     <path
